@@ -1,0 +1,1120 @@
+{
+  "meta": {
+    "generated_at": "2026-07-15T12:25:03.454738+00:00",
+    "source_record_count": 660,
+    "brand_relevant_record_count": 599,
+    "date_range": {
+      "start": "2026-06-01 01:26:00",
+      "end": "2026-06-30 23:50:00"
+    },
+    "summary_line": "There are 599 posts mentioning the brand, with 56.4% being negative and 35.7% being positive, primarily discussing failed_transaction on Facebook where 200 posts were found."
+  },
+  "data_quality": {
+    "total_records": 660,
+    "off_topic_excluded_count": 61,
+    "sentiment_score_mismatch_count": 6,
+    "duplicate_or_templated_text_count": 20,
+    "distinct_duplicated_texts": 10,
+    "repeat_authors": {
+      "unique_author_count": 583,
+      "authors_with_multiple_posts": 72,
+      "max_posts_by_single_author": 3,
+      "top_repeat_authors": [
+        {
+          "author": "Fahim74",
+          "post_count": 3
+        },
+        {
+          "author": "Maliha34",
+          "post_count": 3
+        },
+        {
+          "author": "Rifat65",
+          "post_count": 3
+        },
+        {
+          "author": "Oishi82",
+          "post_count": 3
+        },
+        {
+          "author": "Tuhin71",
+          "post_count": 3
+        },
+        {
+          "author": "Tuhin27",
+          "post_count": 2
+        },
+        {
+          "author": "Arif65",
+          "post_count": 2
+        },
+        {
+          "author": "Tuhin20",
+          "post_count": 2
+        },
+        {
+          "author": "Tanvir29",
+          "post_count": 2
+        },
+        {
+          "author": "Rima60",
+          "post_count": 2
+        }
+      ]
+    },
+    "notes": [
+      "Every record has brand_mention=True in the raw data, including posts unrelated to TakaPay (e.g. traffic, food, exam stress). These are identified via topic='off_topic' and excluded from all brand-sentiment metrics below, but the count is preserved here for transparency.",
+      "A small number of records have a sentiment label that disagrees with their numeric sentiment_score (e.g. labeled negative but score > 50). These are NOT auto-corrected since we cannot verify which field is right; they are counted here and left as-is in the underlying data.",
+      "Some posts are near-duplicate templates with a swapped noun (operator name, area name) — consistent with synthetically generated sample data. They are kept in aggregate counts since they still represent real topic/sentiment signal, but flagged here so it isn't mistaken for organic repetition.",
+      "A handful of accounts post more than once; checked here so raw post-volume isn't mistaken for unique-voice volume (possible brigading/bot signal, though not confirmed as such)."
+    ]
+  },
+  "overview": {
+    "total": 599,
+    "positive": 214,
+    "negative": 338,
+    "neutral": 47,
+    "positive_pct": 35.7,
+    "negative_pct": 56.4,
+    "neutral_pct": 7.8,
+    "avg_sentiment_score": 43.7
+  },
+  "by_platform": {
+    "Facebook": {
+      "post_count": 200,
+      "total": 200,
+      "positive": 66,
+      "negative": 116,
+      "neutral": 18,
+      "positive_pct": 33.0,
+      "negative_pct": 58.0,
+      "neutral_pct": 9.0,
+      "avg_sentiment_score": 42.3,
+      "avg_reactions": 246.1,
+      "avg_comments": 61.0
+    },
+    "Reddit": {
+      "post_count": 76,
+      "total": 76,
+      "positive": 28,
+      "negative": 48,
+      "neutral": 0,
+      "positive_pct": 36.8,
+      "negative_pct": 63.2,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 40.6,
+      "avg_reactions": 249.5,
+      "avg_comments": 55.6
+    },
+    "News/Media": {
+      "post_count": 72,
+      "total": 72,
+      "positive": 29,
+      "negative": 35,
+      "neutral": 8,
+      "positive_pct": 40.3,
+      "negative_pct": 48.6,
+      "neutral_pct": 11.1,
+      "avg_sentiment_score": 49.1,
+      "avg_reactions": 235.8,
+      "avg_comments": 62.5
+    },
+    "Instagram": {
+      "post_count": 71,
+      "total": 71,
+      "positive": 28,
+      "negative": 35,
+      "neutral": 8,
+      "positive_pct": 39.4,
+      "negative_pct": 49.3,
+      "neutral_pct": 11.3,
+      "avg_sentiment_score": 46.6,
+      "avg_reactions": 269.4,
+      "avg_comments": 60.0
+    },
+    "YouTube": {
+      "post_count": 65,
+      "total": 65,
+      "positive": 28,
+      "negative": 32,
+      "neutral": 5,
+      "positive_pct": 43.1,
+      "negative_pct": 49.2,
+      "neutral_pct": 7.7,
+      "avg_sentiment_score": 48.7,
+      "avg_reactions": 212.4,
+      "avg_comments": 58.6
+    },
+    "TikTok": {
+      "post_count": 58,
+      "total": 58,
+      "positive": 16,
+      "negative": 39,
+      "neutral": 3,
+      "positive_pct": 27.6,
+      "negative_pct": 67.2,
+      "neutral_pct": 5.2,
+      "avg_sentiment_score": 36.2,
+      "avg_reactions": 234,
+      "avg_comments": 67.6
+    },
+    "Twitter": {
+      "post_count": 57,
+      "total": 57,
+      "positive": 19,
+      "negative": 33,
+      "neutral": 5,
+      "positive_pct": 33.3,
+      "negative_pct": 57.9,
+      "neutral_pct": 8.8,
+      "avg_sentiment_score": 44.2,
+      "avg_reactions": 227.2,
+      "avg_comments": 50.2
+    }
+  },
+  "by_language": {
+    "bn-en": {
+      "post_count": 329,
+      "total": 329,
+      "positive": 83,
+      "negative": 220,
+      "neutral": 26,
+      "positive_pct": 25.2,
+      "negative_pct": 66.9,
+      "neutral_pct": 7.9,
+      "avg_sentiment_score": 36.9
+    },
+    "bn": {
+      "post_count": 155,
+      "total": 155,
+      "positive": 57,
+      "negative": 88,
+      "neutral": 10,
+      "positive_pct": 36.8,
+      "negative_pct": 56.8,
+      "neutral_pct": 6.5,
+      "avg_sentiment_score": 44.6
+    },
+    "en": {
+      "post_count": 115,
+      "total": 115,
+      "positive": 74,
+      "negative": 30,
+      "neutral": 11,
+      "positive_pct": 64.3,
+      "negative_pct": 26.1,
+      "neutral_pct": 9.6,
+      "avg_sentiment_score": 62.0
+    }
+  },
+  "by_topic": {
+    "failed_transaction": {
+      "post_count": 220,
+      "confidence": "solid",
+      "share_of_all_posts_pct": 36.7,
+      "total": 220,
+      "positive": 23,
+      "negative": 197,
+      "neutral": 0,
+      "positive_pct": 10.5,
+      "negative_pct": 89.5,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 24.9,
+      "avg_reactions": 246.6,
+      "avg_comments": 59.9,
+      "total_engagement": 67428
+    },
+    "competitor": {
+      "post_count": 81,
+      "confidence": "solid",
+      "share_of_all_posts_pct": 13.5,
+      "total": 81,
+      "positive": 0,
+      "negative": 81,
+      "neutral": 0,
+      "positive_pct": 0.0,
+      "negative_pct": 100.0,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 17.2,
+      "avg_reactions": 236.5,
+      "avg_comments": 57.5,
+      "total_engagement": 23814
+    },
+    "cashback_offer": {
+      "post_count": 63,
+      "confidence": "solid",
+      "share_of_all_posts_pct": 10.5,
+      "total": 63,
+      "positive": 59,
+      "negative": 4,
+      "neutral": 0,
+      "positive_pct": 93.7,
+      "negative_pct": 6.3,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 78.6,
+      "avg_reactions": 247.5,
+      "avg_comments": 63.3,
+      "total_engagement": 19577
+    },
+    "recharge": {
+      "post_count": 50,
+      "confidence": "solid",
+      "share_of_all_posts_pct": 8.3,
+      "total": 50,
+      "positive": 46,
+      "negative": 4,
+      "neutral": 0,
+      "positive_pct": 92.0,
+      "negative_pct": 8.0,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 76.0,
+      "avg_reactions": 241.8,
+      "avg_comments": 61.8,
+      "total_engagement": 15180
+    },
+    "send_money": {
+      "post_count": 50,
+      "confidence": "solid",
+      "share_of_all_posts_pct": 8.3,
+      "total": 50,
+      "positive": 46,
+      "negative": 4,
+      "neutral": 0,
+      "positive_pct": 92.0,
+      "negative_pct": 8.0,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 77.6,
+      "avg_reactions": 226.4,
+      "avg_comments": 57.4,
+      "total_engagement": 14190
+    },
+    "charges_fees": {
+      "post_count": 30,
+      "confidence": "solid",
+      "share_of_all_posts_pct": 5.0,
+      "total": 30,
+      "positive": 5,
+      "negative": 25,
+      "neutral": 0,
+      "positive_pct": 16.7,
+      "negative_pct": 83.3,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 26.8,
+      "avg_reactions": 242.6,
+      "avg_comments": 59.9,
+      "total_engagement": 9075
+    },
+    "agent_network": {
+      "post_count": 26,
+      "confidence": "moderate (n<30)",
+      "share_of_all_posts_pct": 4.3,
+      "total": 26,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 26,
+      "positive_pct": 0.0,
+      "negative_pct": 0.0,
+      "neutral_pct": 100.0,
+      "avg_sentiment_score": 52.9,
+      "avg_reactions": 296.6,
+      "avg_comments": 52.1,
+      "total_engagement": 9066
+    },
+    "bill_payment": {
+      "post_count": 24,
+      "confidence": "moderate (n<30)",
+      "share_of_all_posts_pct": 4.0,
+      "total": 24,
+      "positive": 23,
+      "negative": 1,
+      "neutral": 0,
+      "positive_pct": 95.8,
+      "negative_pct": 4.2,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 81.5,
+      "avg_reactions": 257.0,
+      "avg_comments": 68.3,
+      "total_engagement": 7809
+    },
+    "feature_query": {
+      "post_count": 19,
+      "confidence": "moderate (n<30)",
+      "share_of_all_posts_pct": 3.2,
+      "total": 19,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 19,
+      "positive_pct": 0.0,
+      "negative_pct": 0.0,
+      "neutral_pct": 100.0,
+      "avg_sentiment_score": 52,
+      "avg_reactions": 224.3,
+      "avg_comments": 56.4,
+      "total_engagement": 5334
+    },
+    "customer_care": {
+      "post_count": 13,
+      "confidence": "moderate (n<30)",
+      "share_of_all_posts_pct": 2.2,
+      "total": 13,
+      "positive": 9,
+      "negative": 4,
+      "neutral": 0,
+      "positive_pct": 69.2,
+      "negative_pct": 30.8,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 63.5,
+      "avg_reactions": 194.3,
+      "avg_comments": 42.5,
+      "total_engagement": 3079
+    },
+    "login_otp": {
+      "post_count": 10,
+      "confidence": "moderate (n<30)",
+      "share_of_all_posts_pct": 1.7,
+      "total": 10,
+      "positive": 1,
+      "negative": 9,
+      "neutral": 0,
+      "positive_pct": 10.0,
+      "negative_pct": 90.0,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 25.4,
+      "avg_reactions": 158,
+      "avg_comments": 58.3,
+      "total_engagement": 2163
+    },
+    "app_crash": {
+      "post_count": 9,
+      "confidence": "low (n<10) - don't trust the %",
+      "share_of_all_posts_pct": 1.5,
+      "total": 9,
+      "positive": 1,
+      "negative": 8,
+      "neutral": 0,
+      "positive_pct": 11.1,
+      "negative_pct": 88.9,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 29.6,
+      "avg_reactions": 225.8,
+      "avg_comments": 75.9,
+      "total_engagement": 2715
+    },
+    "app_experience": {
+      "post_count": 2,
+      "confidence": "low (n<10) - don't trust the %",
+      "share_of_all_posts_pct": 0.3,
+      "total": 2,
+      "positive": 1,
+      "negative": 1,
+      "neutral": 0,
+      "positive_pct": 50.0,
+      "negative_pct": 50.0,
+      "neutral_pct": 0.0,
+      "avg_sentiment_score": 55.5,
+      "avg_reactions": 50,
+      "avg_comments": 103.5,
+      "total_engagement": 307
+    },
+    "product_news": {
+      "post_count": 2,
+      "confidence": "low (n<10) - don't trust the %",
+      "share_of_all_posts_pct": 0.3,
+      "total": 2,
+      "positive": 0,
+      "negative": 0,
+      "neutral": 2,
+      "positive_pct": 0.0,
+      "negative_pct": 0.0,
+      "neutral_pct": 100.0,
+      "avg_sentiment_score": 52.5,
+      "avg_reactions": 280.5,
+      "avg_comments": 51,
+      "total_engagement": 663
+    }
+  },
+  "trend": {
+    "daily": [
+      {
+        "date": "2026-06-01",
+        "post_count": 16,
+        "positive": 5,
+        "negative": 10,
+        "neutral": 1,
+        "avg_sentiment_score": 39.6
+      },
+      {
+        "date": "2026-06-02",
+        "post_count": 19,
+        "positive": 8,
+        "negative": 10,
+        "neutral": 1,
+        "avg_sentiment_score": 45.6
+      },
+      {
+        "date": "2026-06-03",
+        "post_count": 21,
+        "positive": 7,
+        "negative": 13,
+        "neutral": 1,
+        "avg_sentiment_score": 43.3
+      },
+      {
+        "date": "2026-06-04",
+        "post_count": 19,
+        "positive": 6,
+        "negative": 12,
+        "neutral": 1,
+        "avg_sentiment_score": 40.5
+      },
+      {
+        "date": "2026-06-05",
+        "post_count": 12,
+        "positive": 4,
+        "negative": 6,
+        "neutral": 2,
+        "avg_sentiment_score": 45.2
+      },
+      {
+        "date": "2026-06-06",
+        "post_count": 24,
+        "positive": 11,
+        "negative": 12,
+        "neutral": 1,
+        "avg_sentiment_score": 48.2
+      },
+      {
+        "date": "2026-06-07",
+        "post_count": 16,
+        "positive": 8,
+        "negative": 7,
+        "neutral": 1,
+        "avg_sentiment_score": 53.6
+      },
+      {
+        "date": "2026-06-08",
+        "post_count": 18,
+        "positive": 6,
+        "negative": 11,
+        "neutral": 1,
+        "avg_sentiment_score": 41.6
+      },
+      {
+        "date": "2026-06-09",
+        "post_count": 21,
+        "positive": 8,
+        "negative": 9,
+        "neutral": 4,
+        "avg_sentiment_score": 49.4
+      },
+      {
+        "date": "2026-06-10",
+        "post_count": 19,
+        "positive": 9,
+        "negative": 8,
+        "neutral": 2,
+        "avg_sentiment_score": 52.4
+      },
+      {
+        "date": "2026-06-11",
+        "post_count": 24,
+        "positive": 11,
+        "negative": 11,
+        "neutral": 2,
+        "avg_sentiment_score": 50.5
+      },
+      {
+        "date": "2026-06-12",
+        "post_count": 24,
+        "positive": 5,
+        "negative": 18,
+        "neutral": 1,
+        "avg_sentiment_score": 32.1
+      },
+      {
+        "date": "2026-06-13",
+        "post_count": 18,
+        "positive": 5,
+        "negative": 11,
+        "neutral": 2,
+        "avg_sentiment_score": 40
+      },
+      {
+        "date": "2026-06-14",
+        "post_count": 17,
+        "positive": 5,
+        "negative": 9,
+        "neutral": 3,
+        "avg_sentiment_score": 43.3
+      },
+      {
+        "date": "2026-06-15",
+        "post_count": 21,
+        "positive": 5,
+        "negative": 15,
+        "neutral": 1,
+        "avg_sentiment_score": 33.8
+      },
+      {
+        "date": "2026-06-16",
+        "post_count": 20,
+        "positive": 9,
+        "negative": 8,
+        "neutral": 3,
+        "avg_sentiment_score": 52.8
+      },
+      {
+        "date": "2026-06-17",
+        "post_count": 22,
+        "positive": 11,
+        "negative": 10,
+        "neutral": 1,
+        "avg_sentiment_score": 54.3
+      },
+      {
+        "date": "2026-06-18",
+        "post_count": 29,
+        "positive": 8,
+        "negative": 16,
+        "neutral": 5,
+        "avg_sentiment_score": 42.0
+      },
+      {
+        "date": "2026-06-19",
+        "post_count": 21,
+        "positive": 5,
+        "negative": 14,
+        "neutral": 2,
+        "avg_sentiment_score": 35.6
+      },
+      {
+        "date": "2026-06-20",
+        "post_count": 14,
+        "positive": 6,
+        "negative": 7,
+        "neutral": 1,
+        "avg_sentiment_score": 50.4
+      },
+      {
+        "date": "2026-06-21",
+        "post_count": 20,
+        "positive": 7,
+        "negative": 12,
+        "neutral": 1,
+        "avg_sentiment_score": 42.7
+      },
+      {
+        "date": "2026-06-22",
+        "post_count": 15,
+        "positive": 5,
+        "negative": 9,
+        "neutral": 1,
+        "avg_sentiment_score": 41.1
+      },
+      {
+        "date": "2026-06-23",
+        "post_count": 27,
+        "positive": 10,
+        "negative": 15,
+        "neutral": 2,
+        "avg_sentiment_score": 44.6
+      },
+      {
+        "date": "2026-06-24",
+        "post_count": 19,
+        "positive": 4,
+        "negative": 14,
+        "neutral": 1,
+        "avg_sentiment_score": 32.9
+      },
+      {
+        "date": "2026-06-25",
+        "post_count": 23,
+        "positive": 9,
+        "negative": 12,
+        "neutral": 2,
+        "avg_sentiment_score": 48.0
+      },
+      {
+        "date": "2026-06-26",
+        "post_count": 21,
+        "positive": 7,
+        "negative": 13,
+        "neutral": 1,
+        "avg_sentiment_score": 37
+      },
+      {
+        "date": "2026-06-27",
+        "post_count": 24,
+        "positive": 8,
+        "negative": 15,
+        "neutral": 1,
+        "avg_sentiment_score": 39.8
+      },
+      {
+        "date": "2026-06-28",
+        "post_count": 17,
+        "positive": 7,
+        "negative": 10,
+        "neutral": 0,
+        "avg_sentiment_score": 46
+      },
+      {
+        "date": "2026-06-29",
+        "post_count": 22,
+        "positive": 8,
+        "negative": 13,
+        "neutral": 1,
+        "avg_sentiment_score": 42.0
+      },
+      {
+        "date": "2026-06-30",
+        "post_count": 16,
+        "positive": 7,
+        "negative": 8,
+        "neutral": 1,
+        "avg_sentiment_score": 46.8
+      }
+    ],
+    "weekly": [
+      {
+        "week": "2026-W23",
+        "post_count": 127,
+        "positive": 49,
+        "negative": 70,
+        "neutral": 8,
+        "avg_sentiment_score": 45.1
+      },
+      {
+        "week": "2026-W24",
+        "post_count": 141,
+        "positive": 49,
+        "negative": 77,
+        "neutral": 15,
+        "avg_sentiment_score": 44.2
+      },
+      {
+        "week": "2026-W25",
+        "post_count": 147,
+        "positive": 51,
+        "negative": 82,
+        "neutral": 14,
+        "avg_sentiment_score": 44.5
+      },
+      {
+        "week": "2026-W26",
+        "post_count": 146,
+        "positive": 50,
+        "negative": 88,
+        "neutral": 8,
+        "avg_sentiment_score": 41.3
+      },
+      {
+        "week": "2026-W27",
+        "post_count": 38,
+        "positive": 15,
+        "negative": 21,
+        "neutral": 2,
+        "avg_sentiment_score": 44.4
+      }
+    ]
+  },
+  "top_posts": {
+    "most_viral_overall": [
+      {
+        "id": 1580,
+        "platform": "Facebook",
+        "text": "landlord কে টাকা পাঠিয়েছি 2 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",
+        "sentiment": "positive",
+        "sentiment_score": 82,
+        "topic": "failed_transaction",
+        "reactions": 482,
+        "comments": 118,
+        "engagement": 600
+      },
+      {
+        "id": 1238,
+        "platform": "YouTube",
+        "text": "Instant Airtel recharge on TakaPay, 300 taka, done before I finished my tea.",
+        "sentiment": "positive",
+        "sentiment_score": 92,
+        "topic": "recharge",
+        "reactions": 500,
+        "comments": 90,
+        "engagement": 590
+      },
+      {
+        "id": 1118,
+        "platform": "News/Media",
+        "text": "10000 taka TakaPay theke katlo but receiver pay nai. 24 ghonta dhore atke ache.",
+        "sentiment": "positive",
+        "sentiment_score": 93,
+        "topic": "failed_transaction",
+        "reactions": 475,
+        "comments": 114,
+        "engagement": 589
+      },
+      {
+        "id": 1131,
+        "platform": "Reddit",
+        "text": "landlord কে 300 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",
+        "sentiment": "positive",
+        "sentiment_score": 91,
+        "topic": "send_money",
+        "reactions": 476,
+        "comments": 111,
+        "engagement": 587
+      },
+      {
+        "id": 1601,
+        "platform": "Facebook",
+        "text": "TakaPay e credit card bill dilam ar 800 taka cashback pelam, darun offer!",
+        "sentiment": "positive",
+        "sentiment_score": 74,
+        "topic": "cashback_offer",
+        "reactions": 483,
+        "comments": 102,
+        "engagement": 585
+      }
+    ],
+    "most_viral_negative": [
+      {
+        "id": 1070,
+        "platform": "TikTok",
+        "text": "landlord কে টাকা পাঠিয়েছি 1 week আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",
+        "sentiment": "negative",
+        "sentiment_score": 9,
+        "topic": "failed_transaction",
+        "reactions": 497,
+        "comments": 87,
+        "engagement": 584
+      },
+      {
+        "id": 1646,
+        "platform": "Facebook",
+        "text": "Banglalink recharge NgoodPay diye korle 2500 e extra bonus, TakaPay e nai.",
+        "sentiment": "negative",
+        "sentiment_score": 19,
+        "topic": "competitor",
+        "reactions": 479,
+        "comments": 102,
+        "engagement": 581
+      },
+      {
+        "id": 1547,
+        "platform": "News/Media",
+        "text": "Khulna e NgoodPay agent beshi, TakaPay agent khuje pai na.",
+        "sentiment": "negative",
+        "sentiment_score": 27,
+        "topic": "competitor",
+        "reactions": 489,
+        "comments": 92,
+        "engagement": 581
+      },
+      {
+        "id": 1191,
+        "platform": "TikTok",
+        "text": "আমার একাউন্ট থেকে 500 টাকা কেটে নিয়েছে কিন্তু Banglalink রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।",
+        "sentiment": "negative",
+        "sentiment_score": 16,
+        "topic": "failed_transaction",
+        "reactions": 456,
+        "comments": 116,
+        "engagement": 572
+      },
+      {
+        "id": 1495,
+        "platform": "Facebook",
+        "text": "আমার একাউন্ট থেকে 1000 টাকা কেটে নিয়েছে কিন্তু Teletalk রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।",
+        "sentiment": "negative",
+        "sentiment_score": 21,
+        "topic": "failed_transaction",
+        "reactions": 492,
+        "comments": 77,
+        "engagement": 569
+      }
+    ],
+    "most_viral_positive": [
+      {
+        "id": 1580,
+        "platform": "Facebook",
+        "text": "landlord কে টাকা পাঠিয়েছি 2 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",
+        "sentiment": "positive",
+        "sentiment_score": 82,
+        "topic": "failed_transaction",
+        "reactions": 482,
+        "comments": 118,
+        "engagement": 600
+      },
+      {
+        "id": 1238,
+        "platform": "YouTube",
+        "text": "Instant Airtel recharge on TakaPay, 300 taka, done before I finished my tea.",
+        "sentiment": "positive",
+        "sentiment_score": 92,
+        "topic": "recharge",
+        "reactions": 500,
+        "comments": 90,
+        "engagement": 590
+      },
+      {
+        "id": 1118,
+        "platform": "News/Media",
+        "text": "10000 taka TakaPay theke katlo but receiver pay nai. 24 ghonta dhore atke ache.",
+        "sentiment": "positive",
+        "sentiment_score": 93,
+        "topic": "failed_transaction",
+        "reactions": 475,
+        "comments": 114,
+        "engagement": 589
+      },
+      {
+        "id": 1131,
+        "platform": "Reddit",
+        "text": "landlord কে 300 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",
+        "sentiment": "positive",
+        "sentiment_score": 91,
+        "topic": "send_money",
+        "reactions": 476,
+        "comments": 111,
+        "engagement": 587
+      },
+      {
+        "id": 1601,
+        "platform": "Facebook",
+        "text": "TakaPay e credit card bill dilam ar 800 taka cashback pelam, darun offer!",
+        "sentiment": "positive",
+        "sentiment_score": 74,
+        "topic": "cashback_offer",
+        "reactions": 483,
+        "comments": 102,
+        "engagement": 585
+      }
+    ]
+  },
+  "engagement_weighted_sentiment": {
+    "negative": {
+      "post_count": 338,
+      "post_share_pct": 56.4,
+      "total_engagement": 100063,
+      "engagement_share_pct": 55.5,
+      "avg_engagement_per_post": 296.0
+    },
+    "positive": {
+      "post_count": 214,
+      "post_share_pct": 35.7,
+      "total_engagement": 65274,
+      "engagement_share_pct": 36.2,
+      "avg_engagement_per_post": 305.0
+    },
+    "neutral": {
+      "post_count": 47,
+      "post_share_pct": 7.8,
+      "total_engagement": 15063,
+      "engagement_share_pct": 8.3,
+      "avg_engagement_per_post": 320.5
+    }
+  },
+  "insight_failed_transactions": {
+    "headline": "Failed transaction posts account for 36.7 percent of all posts and 58.3 percent of negative posts with an average sentiment score of 24.9.",
+    "failed_transaction_post_count": 220,
+    "failed_transaction_share_of_all_posts_pct": 36.7,
+    "failed_transaction_share_of_negative_posts_pct": 58.3,
+    "avg_sentiment_score_failed_transaction": 24.9,
+    "avg_sentiment_score_overall_negative": 17.8,
+    "platform_breakdown": {
+      "Facebook": 75,
+      "Reddit": 28,
+      "Instagram": 26,
+      "YouTube": 25,
+      "TikTok": 24,
+      "News/Media": 24,
+      "Twitter": 18
+    },
+    "total_engagement_on_failed_transaction_posts": 67428,
+    "most_viral_failed_transaction_complaints": [
+      {
+        "id": 1070,
+        "platform": "TikTok",
+        "text": "landlord কে টাকা পাঠিয়েছি 1 week আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",
+        "sentiment": "negative",
+        "sentiment_score": 9,
+        "topic": "failed_transaction",
+        "reactions": 497,
+        "comments": 87,
+        "engagement": 584
+      },
+      {
+        "id": 1191,
+        "platform": "TikTok",
+        "text": "আমার একাউন্ট থেকে 500 টাকা কেটে নিয়েছে কিন্তু Banglalink রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।",
+        "sentiment": "negative",
+        "sentiment_score": 16,
+        "topic": "failed_transaction",
+        "reactions": 456,
+        "comments": 116,
+        "engagement": 572
+      },
+      {
+        "id": 1495,
+        "platform": "Facebook",
+        "text": "আমার একাউন্ট থেকে 1000 টাকা কেটে নিয়েছে কিন্তু Teletalk রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।",
+        "sentiment": "negative",
+        "sentiment_score": 21,
+        "topic": "failed_transaction",
+        "reactions": 492,
+        "comments": 77,
+        "engagement": 569
+      },
+      {
+        "id": 1515,
+        "platform": "Facebook",
+        "text": "আমার একাউন্ট থেকে 2000 টাকা কেটে নিয়েছে কিন্তু Teletalk রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।",
+        "sentiment": "negative",
+        "sentiment_score": 7,
+        "topic": "failed_transaction",
+        "reactions": 460,
+        "comments": 96,
+        "engagement": 556
+      },
+      {
+        "id": 1509,
+        "platform": "Reddit",
+        "text": "2500 taka TakaPay theke katlo but receiver pay nai. 24 ghonta dhore atke ache.",
+        "sentiment": "negative",
+        "sentiment_score": 12,
+        "topic": "failed_transaction",
+        "reactions": 473,
+        "comments": 77,
+        "engagement": 550
+      }
+    ],
+    "time_pattern": {
+      "by_hour": {
+        "0": 10,
+        "1": 7,
+        "2": 12,
+        "3": 10,
+        "4": 6,
+        "5": 7,
+        "6": 12,
+        "7": 7,
+        "8": 9,
+        "9": 16,
+        "10": 9,
+        "11": 6,
+        "12": 8,
+        "13": 7,
+        "14": 11,
+        "15": 12,
+        "16": 8,
+        "17": 12,
+        "18": 8,
+        "19": 6,
+        "20": 10,
+        "21": 8,
+        "22": 6,
+        "23": 13
+      },
+      "by_day": {
+        "Monday": 31,
+        "Tuesday": 32,
+        "Wednesday": 25,
+        "Thursday": 34,
+        "Friday": 34,
+        "Saturday": 37,
+        "Sunday": 27
+      },
+      "busiest_hour": 9,
+      "busiest_day": "Saturday"
+    }
+  },
+  "insight_competitor_comparison": {
+    "competitor_name": "NgoodPay",
+    "mention_count": 81,
+    "share_of_all_posts_pct": 13.5,
+    "total": 81,
+    "positive": 0,
+    "negative": 81,
+    "neutral": 0,
+    "positive_pct": 0.0,
+    "negative_pct": 100.0,
+    "neutral_pct": 0.0,
+    "avg_sentiment_score": 17.2,
+    "why_competitor_is_favored": {
+      "fees_or_charges": 32,
+      "cashback_or_bonus": 30,
+      "agent_availability": 13,
+      "customer_care": 7
+    },
+    "sample_posts": [
+      {
+        "id": 1646,
+        "platform": "Facebook",
+        "text": "Banglalink recharge NgoodPay diye korle 2500 e extra bonus, TakaPay e nai.",
+        "sentiment": "negative",
+        "sentiment_score": 19,
+        "topic": "competitor",
+        "reactions": 479,
+        "comments": 102,
+        "engagement": 581
+      },
+      {
+        "id": 1547,
+        "platform": "News/Media",
+        "text": "Khulna e NgoodPay agent beshi, TakaPay agent khuje pai na.",
+        "sentiment": "negative",
+        "sentiment_score": 27,
+        "topic": "competitor",
+        "reactions": 489,
+        "comments": 92,
+        "engagement": 581
+      },
+      {
+        "id": 1397,
+        "platform": "News/Media",
+        "text": "NgoodPay er bill pay UI ta TakaPay theke clean, internet bill dite easy laglo.",
+        "sentiment": "negative",
+        "sentiment_score": 26,
+        "topic": "competitor",
+        "reactions": 484,
+        "comments": 85,
+        "engagement": 569
+      },
+      {
+        "id": 1607,
+        "platform": "TikTok",
+        "text": "Chittagong e NgoodPay agent beshi, TakaPay agent khuje pai na.",
+        "sentiment": "negative",
+        "sentiment_score": 25,
+        "topic": "competitor",
+        "reactions": 459,
+        "comments": 83,
+        "engagement": 542
+      },
+      {
+        "id": 1168,
+        "platform": "Facebook",
+        "text": "NgoodPay er bill pay UI ta TakaPay theke clean, electricity bill dite easy laglo.",
+        "sentiment": "negative",
+        "sentiment_score": 18,
+        "topic": "competitor",
+        "reactions": 497,
+        "comments": 43,
+        "engagement": 540
+      },
+      {
+        "id": 1394,
+        "platform": "Reddit",
+        "text": "NgoodPay er bill pay UI ta TakaPay theke clean, credit card bill dite easy laglo.",
+        "sentiment": "negative",
+        "sentiment_score": 9,
+        "topic": "competitor",
+        "reactions": 490,
+        "comments": 49,
+        "engagement": 539
+      }
+    ],
+    "headline": "NgoodPay is mentioned in 81 posts with 100.0 percent of the sentiment being negative due to fees or charges."
+  }
+}

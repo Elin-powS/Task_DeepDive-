@@ -1,0 +1,661 @@
+id,platform,timestamp,author,text,language,brand_mention,sentiment,sentiment_score,topic,reactions,comments
+1017,TikTok,2026-06-21 01:16:00,Farhana15,"TakaPay helpline e 30 min wait korlam, keu dhorlo na.",bn-en,True,negative,8,customer_care,174,76
+1173,TikTok,2026-06-08 23:49:00,Sabbir77,Paid my gas bill on TakaPay in under a minute. Genuinely smooth experience.,en,True,positive,88,bill_payment,40,106
+1043,YouTube,2026-06-25 04:05:00,Tuhin27,Paid my internet bill on TakaPay in under a minute. Genuinely smooth experience.,en,True,positive,92,bill_payment,148,57
+1506,YouTube,2026-06-21 09:11:00,Priya7,আমার একাউন্ট থেকে 5000 টাকা কেটে নিয়েছে কিন্তু Grameenphone রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,27,failed_transaction,278,85
+1325,Facebook,2026-06-14 23:05:00,Arif65,TakaPay agent kothay pabo Farmgate te? Cash out korte hobe.,bn-en,True,neutral,50,agent_network,335,41
+1437,News/Media,2026-06-18 09:46:00,Sakib74,"Instant Teletalk recharge on TakaPay, 2000 taka, done before I finished my tea.",en,True,positive,74,recharge,131,116
+1273,Facebook,2026-06-10 03:18:00,Priya8,"Instant Grameenphone recharge on TakaPay, 10000 taka, done before I finished my tea.",en,True,positive,83,recharge,83,39
+1488,YouTube,2026-06-23 03:45:00,Tuhin39,Why is TakaPay charging 15 taka to cash out 1500? This is robbery.,en,True,negative,28,charges_fees,327,51
+1399,YouTube,2026-06-23 10:33:00,Nusrat16,"Instant Banglalink recharge on TakaPay, 300 taka, done before I finished my tea.",en,True,positive,88,recharge,83,107
+1158,Facebook,2026-06-11 14:21:00,Rima75,আমার একাউন্ট থেকে 10000 টাকা কেটে নিয়েছে কিন্তু Banglalink রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,30,failed_transaction,266,114
+1472,TikTok,2026-06-15 14:35:00,Sadia29,"TakaPay diye amar bon ke 10000 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,negative,11,failed_transaction,369,25
+1354,Facebook,2026-06-04 20:39:00,Tanvir8,"colleague কে 2500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,74,send_money,278,24
+1542,Facebook,2026-06-17 05:59:00,Sakib85,আমার একাউন্ট থেকে 2000 টাকা কেটে নিয়েছে কিন্তু Robi রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,17,failed_transaction,159,30
+1145,News/Media,2026-06-16 16:37:00,Sabbir84,"amar friend কে 10000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,80,send_money,252,101
+1295,Facebook,2026-06-13 05:05:00,Maliha17,TakaPay agent kothay pabo Dhanmondi 27 te? Cash out korte hobe.,bn-en,True,neutral,54,agent_network,479,45
+1588,Facebook,2026-06-03 11:31:00,Rima33,2500 taka TakaPay theke katlo but receiver pay nai. 3 din dhore atke ache.,bn-en,True,negative,28,failed_transaction,121,74
+1079,Facebook,2026-06-26 12:54:00,Tuhin27,TakaPay customer care sararat min e call dhorlo ar problem solve kore dilo. Impressed.,bn-en,True,positive,85,customer_care,194,45
+1433,Reddit,2026-06-17 23:18:00,Mehedi4,আমার একাউন্ট থেকে 300 টাকা কেটে নিয়েছে কিন্তু Banglalink রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,21,failed_transaction,332,63
+1458,News/Media,2026-06-24 09:15:00,Nafisa67,"TakaPay diye amar bon ke 1000 taka pathalam, 2 ghonta hoye gelo ekhono pending!",bn-en,True,negative,16,failed_transaction,80,16
+1116,News/Media,2026-06-01 06:56:00,Rima56,300 taka TakaPay theke katlo but receiver pay nai. 2 din dhore atke ache.,bn-en,True,negative,28,failed_transaction,381,116
+1642,Instagram,2026-06-02 12:49:00,Lamia22,"amar bon কে টাকা পাঠিয়েছি sararat আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,positive,91,failed_transaction,356,47
+1413,News/Media,2026-06-02 22:24:00,Sumaiya54,"amar friend কে 2000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,88,send_money,470,79
+1431,Facebook,2026-06-11 18:45:00,Tuhin20,আমার একাউন্ট থেকে 1000 টাকা কেটে নিয়েছে কিন্তু Grameenphone রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,positive,79,failed_transaction,193,68
+1146,Reddit,2026-06-14 16:07:00,Sadia1,"Traffic ajke Farmgate e insane, 2 ghonta laglo pouchte.",bn-en,True,positive,46,off_topic,23,24
+1450,Facebook,2026-06-09 06:08:00,Lamia26,"TakaPay e credit card bill dilam ar 1000 taka cashback pelam, darun offer!",bn-en,True,positive,89,cashback_offer,314,53
+1310,Facebook,2026-06-11 13:56:00,Hasan95,"TakaPay saved me a trip today, cleared my tuition fee from bed. Love it.",en,True,positive,84,bill_payment,362,46
+1395,Reddit,2026-06-30 23:21:00,Sadia64,"bhai কে টাকা পাঠিয়েছি 2 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,9,failed_transaction,374,55
+1362,Facebook,2026-06-29 10:11:00,Zubair25,Can I pay my credit card bill with TakaPay or only send money?,en,True,neutral,49,feature_query,105,2
+1550,Instagram,2026-06-21 01:47:00,Anika10,"NgoodPay notun 500 taka cashback offer diyeche, keu try koreche?",bn-en,True,negative,9,competitor,325,56
+1511,Twitter,2026-06-08 05:36:00,Rima2,"TakaPay diye bhai ke 2500 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,10,failed_transaction,421,51
+1024,Twitter,2026-06-17 14:16:00,Tanvir29,"ma কে 2000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,negative,20,send_money,52,29
+1468,Facebook,2026-06-17 11:59:00,Nafisa60,আমার একাউন্ট থেকে 10000 টাকা কেটে নিয়েছে কিন্তু Teletalk রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,30,failed_transaction,413,25
+1524,News/Media,2026-06-11 02:48:00,Nafisa83,2000 taka TakaPay theke katlo but receiver pay nai. 2 din dhore atke ache.,bn-en,True,negative,7,failed_transaction,152,81
+1109,Facebook,2026-06-29 00:09:00,Nafisa7,TakaPay customer care 2 min e call dhorlo ar problem solve kore dilo. Impressed.,bn-en,True,positive,79,customer_care,151,104
+1491,Reddit,2026-06-06 23:12:00,Sadia52,"Instant Grameenphone recharge on TakaPay, 2500 taka, done before I finished my tea.",en,True,positive,74,recharge,418,64
+1232,TikTok,2026-06-20 09:34:00,Fahim74,আমার একাউন্ট থেকে 300 টাকা কেটে নিয়েছে কিন্তু Teletalk রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,positive,75,failed_transaction,324,12
+1097,Instagram,2026-06-09 23:32:00,Jony17,Paid my electricity bill on TakaPay in under a minute. Genuinely smooth experience.,en,True,positive,84,bill_payment,428,120
+1192,News/Media,2026-06-20 13:44:00,Rima60,"Instant Teletalk recharge on TakaPay, 2500 taka, done before I finished my tea.",en,True,positive,88,recharge,183,5
+1008,Facebook,2026-06-23 06:04:00,Nabil6,"TakaPay e tuition fee dilam ar 800 taka cashback pelam, darun offer!",bn-en,True,positive,82,cashback_offer,492,85
+1154,Twitter,2026-06-28 13:43:00,Nafisa2,"Instant Banglalink recharge on TakaPay, 1500 taka, done before I finished my tea.",en,True,negative,7,recharge,425,19
+1314,Facebook,2026-06-04 21:41:00,Zubair32,"Grameenphone recharge NgoodPay diye korle 500 e extra bonus, TakaPay e nai.",bn-en,True,negative,6,competitor,2,22
+1001,Facebook,2026-06-04 07:07:00,Rifat69,TakaPay quietly raised cash out charges again. Getting expensive for no reason.,en,True,negative,26,charges_fees,48,46
+1474,TikTok,2026-06-22 05:14:00,Sakib80,"Instant Airtel recharge on TakaPay, 1000 taka, done before I finished my tea.",en,True,positive,77,recharge,186,95
+1575,Twitter,2026-06-06 14:57:00,Anika57,"Instant Robi recharge on TakaPay, 10000 taka, done before I finished my tea.",en,True,positive,81,recharge,35,104
+1402,TikTok,2026-06-27 17:56:00,Oishi56,"TakaPay e tuition fee dilam ar 2000 taka cashback pelam, darun offer!",bn-en,True,negative,12,cashback_offer,365,44
+1581,Facebook,2026-06-11 15:23:00,Maliha96,আমার একাউন্ট থেকে 800 টাকা কেটে নিয়েছে কিন্তু Banglalink রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,30,failed_transaction,201,103
+1132,News/Media,2026-06-10 07:53:00,Zubair61,Dhanmondi 27 e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,59,agent_network,262,2
+1428,YouTube,2026-06-06 16:30:00,Hasan45,"amar friend কে 300 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,76,send_money,175,83
+1657,Facebook,2026-06-28 03:55:00,Tuhin5,"Transaction fail holo tao 5000 taka kete nilo, TakaPay er kono response nai.",bn-en,True,negative,12,failed_transaction,2,1
+1308,YouTube,2026-06-30 06:50:00,Mitu53,"amar bon কে টাকা পাঠিয়েছি 24 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,11,failed_transaction,187,67
+1010,Facebook,2026-06-03 18:16:00,Nafisa90,"Amar issue ta TakaPay support khub politely handle korlo, valo laglo.",bn-en,True,positive,94,customer_care,158,82
+1390,TikTok,2026-06-03 15:53:00,Hasan74,আমার একাউন্ট থেকে 1000 টাকা কেটে নিয়েছে কিন্তু Airtel রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,15,failed_transaction,16,113
+1409,Facebook,2026-06-09 16:13:00,Jony47,"Motijheel e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,23,competitor,344,35
+1645,YouTube,2026-06-25 09:31:00,Sakib94,10000 taka TakaPay theke katlo but receiver pay nai. 30 min dhore atke ache.,bn-en,True,negative,29,failed_transaction,135,68
+1605,Instagram,2026-06-23 02:30:00,Nusrat12,"TakaPay diye bhai ke 10000 taka pathalam, sararat hoye gelo ekhono pending!",bn-en,True,negative,20,failed_transaction,148,18
+1039,YouTube,2026-06-13 09:00:00,Nusrat24,"TakaPay diye baba ke 1000 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,8,failed_transaction,138,96
+1375,YouTube,2026-06-29 16:35:00,Nafisa77,"Mohakhali e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,30,competitor,116,120
+1478,Reddit,2026-06-15 08:46:00,Fahim98,"amar friend কে টাকা পাঠিয়েছি 4 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,27,failed_transaction,352,15
+1219,Facebook,2026-06-07 10:58:00,Zubair30,"TakaPay helpline e 45 min wait korlam, keu dhorlo na.",bn-en,True,positive,91,customer_care,83,17
+1191,TikTok,2026-06-15 19:52:00,Sabbir55,আমার একাউন্ট থেকে 500 টাকা কেটে নিয়েছে কিন্তু Banglalink রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,16,failed_transaction,456,116
+1457,Instagram,2026-06-23 09:54:00,Imran50,"TakaPay er cashback gulo genuinely kaje lage, 10000 taka bachlo ei mashe.",bn-en,True,positive,94,cashback_offer,485,70
+1053,YouTube,2026-06-04 09:19:00,Maliha34,"Kal semester final, ekhono porini kichui 😭",bn-en,True,neutral,60,off_topic,120,93
+1144,Reddit,2026-06-12 10:47:00,Rasel7,আমার একাউন্ট থেকে 1500 টাকা কেটে নিয়েছে কিন্তু Airtel রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,16,failed_transaction,423,37
+1358,Twitter,2026-06-14 22:39:00,Tania47,"Ei Farmgate er biryani ta must try, khub valo.",bn-en,True,neutral,59,off_topic,44,96
+1198,Instagram,2026-06-28 21:33:00,Nabil8,"TakaPay e gas bill dilam ar 10000 taka cashback pelam, darun offer!",bn-en,True,positive,87,cashback_offer,332,1
+1082,Twitter,2026-06-13 09:26:00,Sumaiya79,"Ei Mohakhali er biryani ta must try, khub valo.",bn-en,True,neutral,55,off_topic,22,33
+1596,Instagram,2026-06-08 01:24:00,Hasan52,2000 taka TakaPay theke katlo but receiver pay nai. 2 ghonta dhore atke ache.,bn-en,True,positive,72,failed_transaction,469,66
+1027,Facebook,2026-06-06 18:45:00,Rakib20,"Traffic ajke Chittagong e insane, 2 ghonta laglo pouchte.",bn-en,True,neutral,50,off_topic,302,115
+1326,News/Media,2026-06-30 16:39:00,Prova7,baba bollo NgoodPay er customer care TakaPay er cheye onek valo.,bn-en,True,negative,10,competitor,406,111
+1449,TikTok,2026-06-05 18:09:00,Mitu31,"Ajke Dhanmondi 27 te prochur bristi, office jete 1 ghonta deri hoye gelo.",bn-en,True,positive,50,off_topic,24,41
+1403,YouTube,2026-06-14 06:54:00,Nafisa16,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Bashundhara eo kaj kore.",bn-en,True,negative,19,competitor,109,55
+1264,Facebook,2026-06-18 01:17:00,Nafisa85,Rajshahi e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,56,agent_network,375,20
+1337,Instagram,2026-06-18 13:21:00,Nabil12,"TakaPay e tuition fee dilam ar 1000 taka cashback pelam, darun offer!",bn-en,True,negative,7,cashback_offer,322,111
+1073,YouTube,2026-06-03 12:24:00,Rakib25,আমার একাউন্ট থেকে 300 টাকা কেটে নিয়েছে কিন্তু Airtel রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,28,failed_transaction,255,113
+1641,Facebook,2026-06-29 17:46:00,Anika2,আমার একাউন্ট থেকে 2500 টাকা কেটে নিয়েছে কিন্তু Airtel রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,23,failed_transaction,300,46
+1587,Facebook,2026-06-29 10:47:00,Maliha18,2000 taka TakaPay theke katlo but receiver pay nai. 4 din dhore atke ache.,bn-en,True,positive,93,failed_transaction,458,32
+1304,News/Media,2026-06-25 22:24:00,Zubair50,"TakaPay e internet bill dilam ar 5000 taka cashback pelam, darun offer!",bn-en,True,positive,87,cashback_offer,70,33
+1341,Facebook,2026-06-07 18:50:00,Nabil98,"amar friend কে টাকা পাঠিয়েছি 3 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,21,failed_transaction,42,73
+1638,Facebook,2026-06-15 15:04:00,Jony15,"Instant Grameenphone recharge on TakaPay, 1000 taka, done before I finished my tea.",en,True,positive,85,recharge,29,111
+1334,Instagram,2026-06-22 12:42:00,Arif61,"baba কে 5000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,90,send_money,265,25
+1083,Facebook,2026-06-11 15:26:00,Sadia61,"Ei Bashundhara er biryani ta must try, khub valo.",bn-en,True,neutral,47,off_topic,366,59
+1574,TikTok,2026-06-25 13:28:00,Rifat29,"Grameenphone recharge NgoodPay diye korle 10000 e extra bonus, TakaPay e nai.",bn-en,True,negative,19,competitor,224,114
+1137,Twitter,2026-06-07 09:21:00,Priya45,"NgoodPay er cash out charge 500 e onek kom, tai TakaPay chere switch korlam.",bn-en,True,negative,24,competitor,324,74
+1218,TikTok,2026-06-03 15:02:00,Nusrat14,"TakaPay saved me a trip today, cleared my credit card bill from bed. Love it.",en,True,positive,80,bill_payment,290,102
+1217,TikTok,2026-06-04 13:21:00,Imran96,"Ajke Gulshan 1 te prochur bristi, office jete 1 ghonta deri hoye gelo.",bn-en,True,positive,53,off_topic,14,3
+1572,News/Media,2026-06-13 02:13:00,Sadia91,"TakaPay diye baba ke 1000 taka pathalam, 4 din hoye gelo ekhono pending!",bn-en,True,negative,20,failed_transaction,37,53
+1540,Reddit,2026-06-24 05:20:00,Prova72,আমার একাউন্ট থেকে 2000 টাকা কেটে নিয়েছে কিন্তু Airtel রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,17,failed_transaction,250,64
+1359,Facebook,2026-06-30 04:33:00,Farhana92,"Airtel recharge NgoodPay diye korle 800 e extra bonus, TakaPay e nai.",bn-en,True,negative,16,competitor,80,45
+1367,Twitter,2026-06-19 11:20:00,Arif30,"TakaPay e WASA bill dilam ar 10000 taka cashback pelam, darun offer!",bn-en,True,positive,86,cashback_offer,88,101
+1307,News/Media,2026-06-27 12:52:00,Sadia58,"baba কে টাকা পাঠিয়েছি 4 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,27,failed_transaction,124,63
+1656,YouTube,2026-06-19 04:41:00,Rasel19,"Instant Robi recharge on TakaPay, 2500 taka, done before I finished my tea.",en,True,positive,73,recharge,392,1
+1127,Twitter,2026-06-08 17:11:00,Tania57,আমার একাউন্ট থেকে 5000 টাকা কেটে নিয়েছে কিন্তু Teletalk রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,29,failed_transaction,352,98
+1549,Reddit,2026-06-12 21:59:00,Hasan15,"TakaPay diye amar bon ke 10000 taka pathalam, 4 din hoye gelo ekhono pending!",bn-en,True,negative,16,failed_transaction,166,103
+1230,Facebook,2026-06-21 09:58:00,Rima30,"TakaPay diye bhai ke 800 taka pathalam, 24 ghonta hoye gelo ekhono pending!",bn-en,True,negative,21,failed_transaction,446,78
+1379,Reddit,2026-06-01 09:43:00,Rakib34,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Banani eo kaj kore.",bn-en,True,negative,17,competitor,321,62
+1650,Facebook,2026-06-03 16:27:00,Fahim47,"Teletalk recharge NgoodPay diye korle 2000 e extra bonus, TakaPay e nai.",bn-en,True,negative,16,competitor,367,45
+1329,News/Media,2026-06-04 02:45:00,Shuvo58,amar bon bollo NgoodPay er customer care TakaPay er cheye onek valo.,bn-en,True,negative,9,competitor,213,1
+1305,Instagram,2026-06-19 14:39:00,Arif73,"TakaPay diye ma ke 2500 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,negative,8,failed_transaction,338,28
+1342,Reddit,2026-06-21 02:33:00,Sakib93,Why is TakaPay charging 23 taka to cash out 1500? This is robbery.,en,True,negative,9,charges_fees,414,32
+1309,Instagram,2026-06-10 15:55:00,Anika42,"TakaPay er cashback gulo genuinely kaje lage, 300 taka bachlo ei mashe.",bn-en,True,positive,91,cashback_offer,409,117
+1142,Twitter,2026-06-29 22:49:00,Fahim4,"TakaPay OTP ashteci na, 30 min dhore login e atke achi. Fix koro please.",bn-en,True,negative,26,login_otp,10,78
+1564,Reddit,2026-06-27 23:11:00,Sumaiya68,"baba কে টাকা পাঠিয়েছি 24 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,23,failed_transaction,27,44
+1093,News/Media,2026-06-08 00:48:00,Fahim69,500 taka TakaPay theke katlo but receiver pay nai. 24 ghonta dhore atke ache.,bn-en,True,negative,27,failed_transaction,46,83
+1523,Instagram,2026-06-14 07:13:00,Rakib14,"TakaPay diye bhai ke 5000 taka pathalam, 2 din hoye gelo ekhono pending!",bn-en,True,negative,20,failed_transaction,366,0
+1153,Facebook,2026-06-07 14:16:00,Oishi15,"Ei Gulshan 1 er biryani ta must try, khub valo.",bn-en,True,positive,60,off_topic,185,82
+1401,Facebook,2026-06-12 05:37:00,Tania85,"TakaPay e electricity bill dilam ar 2500 taka cashback pelam, darun offer!",bn-en,True,positive,74,cashback_offer,26,111
+1366,Twitter,2026-06-08 16:50:00,Sadia66,"amar friend কে টাকা পাঠিয়েছি sararat আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,22,failed_transaction,270,63
+1486,TikTok,2026-06-16 06:04:00,Oishi51,"Ajke Mohakhali te prochur bristi, office jete 2 ghonta deri hoye gelo.",bn-en,True,positive,58,off_topic,15,28
+1363,TikTok,2026-06-10 16:26:00,Tania40,আমার একাউন্ট থেকে 10000 টাকা কেটে নিয়েছে কিন্তু Airtel রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,9,failed_transaction,213,117
+1618,YouTube,2026-06-28 17:55:00,Sabbir19,"TakaPay diye bhai ke 5000 taka pathalam, 2 ghonta hoye gelo ekhono pending!",bn-en,True,negative,30,failed_transaction,293,113
+1177,Facebook,2026-06-12 02:00:00,Tanvir29,"Transaction fail holo tao 10000 taka kete nilo, TakaPay er kono response nai.",bn-en,True,negative,10,failed_transaction,316,23
+1369,TikTok,2026-06-21 00:37:00,Tanvir89,"TakaPay e DESCO bill dilam ar 300 taka cashback pelam, darun offer!",bn-en,True,positive,91,cashback_offer,232,68
+1162,Facebook,2026-06-16 10:06:00,Sabbir24,"Ajke Sylhet te prochur bristi, office jete 2 ghonta deri hoye gelo.",bn-en,True,neutral,53,off_topic,193,10
+1405,Facebook,2026-06-26 08:29:00,Fahim93,2500 taka TakaPay theke katlo but receiver pay nai. sararat dhore atke ache.,bn-en,True,negative,18,failed_transaction,379,10
+1248,Twitter,2026-06-21 17:31:00,Mehedi1,"colleague কে টাকা পাঠিয়েছি 2 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,23,failed_transaction,242,95
+1263,Facebook,2026-06-01 01:26:00,Hasan25,TakaPay customer care 4 min e call dhorlo ar problem solve kore dilo. Impressed.,bn-en,True,positive,73,customer_care,483,19
+1084,Facebook,2026-06-28 15:17:00,Mitu42,"Traffic ajke Uttara e insane, 2 ghonta laglo pouchte.",bn-en,True,neutral,54,off_topic,440,40
+1552,Reddit,2026-06-26 05:31:00,Arif25,"Transaction fail holo tao 300 taka kete nilo, TakaPay er kono response nai.",bn-en,True,negative,12,failed_transaction,264,56
+1033,Twitter,2026-06-28 21:02:00,Priya78,"Notun phone kinbo vabtesi, keu Grameenphone er offer jano?",bn-en,True,neutral,59,off_topic,262,25
+1451,Reddit,2026-06-28 10:04:00,Fahim55,"Sylhet e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,24,competitor,92,6
+1201,YouTube,2026-06-19 03:22:00,Sakib92,"TakaPay diye colleague ke 2500 taka pathalam, 1 week hoye gelo ekhono pending!",bn-en,True,negative,19,failed_transaction,248,2
+1636,Reddit,2026-06-17 17:33:00,Prova65,"amar bon কে 800 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,88,send_money,474,96
+1111,News/Media,2026-06-17 06:06:00,Rasel29,"TakaPay e credit card bill dilam ar 1500 taka cashback pelam, darun offer!",bn-en,True,positive,75,cashback_offer,211,74
+1179,YouTube,2026-06-06 14:24:00,Tania64,"Transaction fail holo tao 800 taka kete nilo, TakaPay er kono response nai.",bn-en,True,negative,7,failed_transaction,299,64
+1570,Facebook,2026-06-10 09:17:00,Prova67,"baba কে 2000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,76,send_money,344,87
+1421,Facebook,2026-06-23 11:28:00,Mehedi97,TakaPay agent kothay pabo Banani te? Cash out korte hobe.,bn-en,True,neutral,53,agent_network,215,73
+1070,TikTok,2026-06-08 00:37:00,Imran67,"landlord কে টাকা পাঠিয়েছি 1 week আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,9,failed_transaction,497,87
+1244,News/Media,2026-06-23 18:55:00,Sadia68,"TakaPay diye ma ke 10000 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,negative,26,failed_transaction,181,107
+1200,Instagram,2026-06-14 19:41:00,Nabil78,"Been recharging my Banglalink number on TakaPay for two years, never failed once.",en,True,positive,72,recharge,129,113
+1161,Instagram,2026-06-27 16:50:00,Mehedi28,আমার একাউন্ট থেকে 500 টাকা কেটে নিয়েছে কিন্তু Grameenphone রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,12,failed_transaction,133,118
+1183,Reddit,2026-06-21 15:35:00,Fahim6,আমার একাউন্ট থেকে 1000 টাকা কেটে নিয়েছে কিন্তু Robi রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,19,failed_transaction,414,113
+1110,Facebook,2026-06-07 00:12:00,Shuvo30,"Instant Airtel recharge on TakaPay, 10000 taka, done before I finished my tea.",en,True,positive,83,recharge,313,83
+1382,Instagram,2026-06-03 20:53:00,Sadia14,"TakaPay e DPDC bill dilam ar 1500 taka cashback pelam, darun offer!",bn-en,True,positive,90,cashback_offer,207,38
+1631,Reddit,2026-06-08 23:31:00,Nusrat21,Why is TakaPay charging 15 taka to cash out 1000? This is robbery.,en,True,negative,10,charges_fees,249,4
+1126,News/Media,2026-06-23 19:25:00,Farhana49,"No more standing in line for internet bill payments, TakaPay just handled it 🙌",en,True,positive,85,bill_payment,452,80
+1555,TikTok,2026-06-24 15:25:00,Nafisa20,"TakaPay diye amar bon ke 1500 taka pathalam, 24 ghonta hoye gelo ekhono pending!",bn-en,True,negative,6,failed_transaction,290,95
+1250,Instagram,2026-06-26 23:21:00,Mitu19,"Airtel recharge NgoodPay diye korle 2000 e extra bonus, TakaPay e nai.",bn-en,True,negative,22,competitor,33,118
+1467,News/Media,2026-06-06 19:18:00,Tanvir5,"Ajke Mirpur 10 te prochur bristi, office jete 1 ghonta deri hoye gelo.",bn-en,True,positive,48,off_topic,451,75
+1291,Facebook,2026-06-09 00:32:00,Lamia57,"TakaPay er cashback gulo genuinely kaje lage, 1500 taka bachlo ei mashe.",bn-en,True,positive,85,cashback_offer,314,87
+1034,News/Media,2026-06-10 05:16:00,Rifat58,TakaPay দিয়ে WASA bill দেওয়া যায় কিনা কেউ বলতে পারবেন?,bn,True,neutral,53,feature_query,70,53
+1447,Facebook,2026-06-11 22:18:00,Fahim18,"NgoodPay er cash out charge 1500 e onek kom, tai TakaPay chere switch korlam.",bn-en,True,negative,26,competitor,315,65
+1058,YouTube,2026-06-17 08:43:00,Imran78,Why is TakaPay charging 15 taka to cash out 800? This is robbery.,en,True,positive,88,charges_fees,419,80
+1323,TikTok,2026-06-23 08:21:00,Sadia66,"colleague কে 1000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,76,send_money,173,102
+1029,News/Media,2026-06-11 22:43:00,Tuhin76,Why is TakaPay charging 20 taka to cash out 1000? This is robbery.,en,True,positive,81,charges_fees,166,33
+1207,Facebook,2026-06-09 01:22:00,Tuhin30,Mirpur 10 e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,57,agent_network,164,24
+1074,Twitter,2026-06-20 03:21:00,Hasan88,"NgoodPay er bill pay UI ta TakaPay theke clean, DESCO bill dite easy laglo.",bn-en,True,negative,28,competitor,202,25
+1092,YouTube,2026-06-04 13:07:00,Sabbir5,"Traffic ajke Banani e insane, 2 ghonta laglo pouchte.",bn-en,True,positive,50,off_topic,407,63
+1406,YouTube,2026-06-15 18:25:00,Tania60,"Airtel recharge NgoodPay diye korle 10000 e extra bonus, TakaPay e nai.",bn-en,True,negative,10,competitor,147,116
+1267,Instagram,2026-06-23 14:00:00,Imran34,"Ajke Banani te prochur bristi, office jete 2 ghonta deri hoye gelo.",bn-en,True,positive,50,off_topic,424,88
+1578,Twitter,2026-06-24 06:53:00,Rasel83,"TakaPay e internet bill dilam ar 800 taka cashback pelam, darun offer!",bn-en,True,positive,83,cashback_offer,454,42
+1494,Twitter,2026-06-16 07:03:00,Tuhin8,"Airtel recharge NgoodPay diye korle 2500 e extra bonus, TakaPay e nai.",bn-en,True,negative,13,competitor,452,49
+1237,Instagram,2026-06-01 14:51:00,Rakib41,"Instant Airtel recharge on TakaPay, 2500 taka, done before I finished my tea.",en,True,positive,80,recharge,288,83
+1356,Facebook,2026-06-30 23:50:00,Maliha34,"TakaPay diye bhai ke 10000 taka pathalam, 24 ghonta hoye gelo ekhono pending!",bn-en,True,negative,13,failed_transaction,367,14
+1075,YouTube,2026-06-14 10:08:00,Sadia80,Argentina kal jitbe to? Messi form e ache mone hoy.,bn-en,True,positive,52,off_topic,253,78
+1032,News/Media,2026-06-03 14:03:00,Mitu25,Can I pay my DPDC bill with TakaPay or only send money?,en,True,neutral,48,feature_query,141,5
+1270,Instagram,2026-06-26 17:24:00,Oishi85,"TakaPay diye baba ke 800 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,13,failed_transaction,128,94
+1526,YouTube,2026-06-21 10:04:00,Sadia40,"Instant Teletalk recharge on TakaPay, 5000 taka, done before I finished my tea.",en,True,positive,76,recharge,267,69
+1429,YouTube,2026-06-15 14:49:00,Zubair66,"colleague কে 300 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,82,send_money,51,95
+1519,Facebook,2026-06-11 13:04:00,Maliha50,TakaPay agent kothay pabo Uttara te? Cash out korte hobe.,bn-en,True,neutral,56,agent_network,240,71
+1157,TikTok,2026-06-12 14:14:00,Mehedi97,"Transaction fail holo tao 2500 taka kete nilo, TakaPay er kono response nai.",bn-en,True,negative,20,failed_transaction,4,101
+1384,Facebook,2026-06-26 15:15:00,Nafisa13,"amar friend কে 1000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,82,send_money,278,120
+1481,Reddit,2026-06-20 23:03:00,Hasan47,800 taka TakaPay theke katlo but receiver pay nai. 2 din dhore atke ache.,bn-en,True,positive,91,failed_transaction,237,97
+1483,Facebook,2026-06-09 04:18:00,Mitu31,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Motijheel eo kaj kore.",bn-en,True,negative,13,competitor,37,5
+1246,Twitter,2026-06-13 03:51:00,Rakib42,"TakaPay e DESCO bill dilam ar 2500 taka cashback pelam, darun offer!",bn-en,True,positive,89,cashback_offer,352,5
+1343,YouTube,2026-06-10 18:17:00,Tanvir84,"bhai কে 300 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,87,send_money,132,35
+1257,Instagram,2026-06-19 11:27:00,Prova94,"ma কে 1000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,90,send_money,227,26
+1349,News/Media,2026-06-09 02:39:00,Sumaiya99,"amar friend কে টাকা পাঠিয়েছি 24 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,positive,90,failed_transaction,14,40
+1380,Facebook,2026-06-17 18:43:00,Zubair23,"Ajke Dhanmondi 27 te prochur bristi, office jete 2 ghonta deri hoye gelo.",bn-en,True,neutral,54,off_topic,315,50
+1077,Facebook,2026-06-04 14:41:00,Prova22,Sylhet e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,55,agent_network,168,24
+1159,YouTube,2026-06-17 12:18:00,Mehedi73,Why is TakaPay charging 18 taka to cash out 500? This is robbery.,en,True,negative,11,charges_fees,183,51
+1072,TikTok,2026-06-28 08:31:00,Rakib2,TakaPay customer care 24 min e call dhorlo ar problem solve kore dilo. Impressed.,bn-en,True,positive,80,customer_care,275,38
+1211,Reddit,2026-06-29 00:06:00,Rifat29,"Farmgate e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,29,competitor,143,67
+1189,Facebook,2026-06-18 06:34:00,Maliha58,আমার একাউন্ট থেকে 2500 টাকা কেটে নিয়েছে কিন্তু Banglalink রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,25,failed_transaction,354,58
+1446,Facebook,2026-06-22 18:03:00,Hasan33,"Ajke Gulshan 1 te prochur bristi, office jete 30 min deri hoye gelo.",bn-en,True,neutral,60,off_topic,436,19
+1620,TikTok,2026-06-25 04:03:00,Rasel45,"TakaPay diye amar bon ke 1000 taka pathalam, 1 week hoye gelo ekhono pending!",bn-en,True,negative,26,failed_transaction,183,63
+1251,Facebook,2026-06-29 03:37:00,Sabbir92,"amar friend কে টাকা পাঠিয়েছি 1 week আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,18,failed_transaction,297,47
+1562,News/Media,2026-06-06 13:59:00,Nafisa4,"Instant Airtel recharge on TakaPay, 2000 taka, done before I finished my tea.",en,True,positive,77,recharge,324,107
+1624,Facebook,2026-06-11 12:44:00,Maliha96,"TakaPay diye colleague ke 500 taka pathalam, 4 din hoye gelo ekhono pending!",bn-en,True,positive,83,failed_transaction,457,79
+1069,Reddit,2026-06-22 12:56:00,Mehedi63,"TakaPay app barbar crash korche, gas bill dite partesi na. Worst timing.",bn-en,True,negative,7,app_crash,0,9
+1543,Facebook,2026-06-24 03:31:00,Mitu52,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Mohakhali eo kaj kore.",bn-en,True,negative,21,competitor,379,80
+1086,Facebook,2026-06-13 01:19:00,Lamia11,"ma কে টাকা পাঠিয়েছি 24 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,9,failed_transaction,106,12
+1500,YouTube,2026-06-20 05:01:00,Nafisa47,"Traffic ajke Mohakhali e insane, 2 ghonta laglo pouchte.",bn-en,True,neutral,57,off_topic,386,47
+1014,Reddit,2026-06-11 12:02:00,Imran11,"Gulshan 1 e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,27,competitor,90,19
+1148,Facebook,2026-06-17 18:54:00,Maliha18,Paid my tuition fee on TakaPay in under a minute. Genuinely smooth experience.,en,True,positive,75,bill_payment,402,39
+1525,Facebook,2026-06-27 12:35:00,Fahim11,Why is TakaPay charging 18 taka to cash out 1000? This is robbery.,en,True,negative,7,charges_fees,71,91
+1012,YouTube,2026-06-06 21:16:00,Nafisa32,কেউ কি জানেন TakaPay দিয়ে ট্রেনের টিকিট কাটা যায়?,bn,True,neutral,51,feature_query,203,50
+1172,Facebook,2026-06-24 23:10:00,Jony24,"amar bon কে টাকা পাঠিয়েছি 30 min আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,20,failed_transaction,184,55
+1360,Facebook,2026-06-18 01:12:00,Priya16,Why is TakaPay charging 23 taka to cash out 2500? This is robbery.,en,True,negative,12,charges_fees,57,115
+1315,Twitter,2026-06-04 08:06:00,Priya45,"TakaPay e WASA bill dilam ar 800 taka cashback pelam, darun offer!",bn-en,True,positive,87,cashback_offer,163,37
+1293,Reddit,2026-06-08 21:12:00,Tania94,Ajke TakaPay cashback e 1500 taka fire pelam. Regular user hoye gelam 😍,bn-en,True,positive,84,cashback_offer,449,12
+1141,Instagram,2026-06-14 12:12:00,Rifat60,"NgoodPay notun 2000 taka cashback offer diyeche, keu try koreche?",bn-en,True,negative,20,competitor,191,54
+1404,Instagram,2026-06-20 11:02:00,Arif64,আমার একাউন্ট থেকে 500 টাকা কেটে নিয়েছে কিন্তু Airtel রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,8,failed_transaction,132,50
+1477,Facebook,2026-06-26 08:15:00,Nusrat15,Why is TakaPay charging 18 taka to cash out 5000? This is robbery.,en,True,negative,8,charges_fees,230,85
+1456,TikTok,2026-06-24 17:57:00,Mehedi24,"NgoodPay er cash out charge 2500 e onek kom, tai TakaPay chere switch korlam.",bn-en,True,negative,21,competitor,37,89
+1290,News/Media,2026-06-06 13:06:00,Tania21,amar friend bollo NgoodPay er customer care TakaPay er cheye onek valo.,bn-en,True,negative,8,competitor,108,67
+1571,Twitter,2026-06-24 23:29:00,Sabbir25,500 taka TakaPay theke katlo but receiver pay nai. 1 week dhore atke ache.,bn-en,True,negative,10,failed_transaction,247,71
+1427,Facebook,2026-06-09 08:34:00,Imran39,"TakaPay diye colleague ke 2000 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,negative,6,failed_transaction,150,104
+1580,Facebook,2026-06-06 10:29:00,Arif8,"landlord কে টাকা পাঠিয়েছি 2 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,positive,82,failed_transaction,482,118
+1495,Facebook,2026-06-23 04:13:00,Nusrat63,আমার একাউন্ট থেকে 1000 টাকা কেটে নিয়েছে কিন্তু Teletalk রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,21,failed_transaction,492,77
+1186,YouTube,2026-06-02 09:49:00,Mitu43,"amar bon কে টাকা পাঠিয়েছি 2 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,21,failed_transaction,113,24
+1030,News/Media,2026-06-20 03:26:00,Rifat65,Why is TakaPay charging 20 taka to cash out 5000? This is robbery.,en,True,negative,27,charges_fees,66,68
+1239,News/Media,2026-06-23 20:09:00,Sabbir72,"TakaPay diye amar bon ke 800 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,positive,73,failed_transaction,398,23
+1376,TikTok,2026-06-04 19:49:00,Arif33,"Ajke Rajshahi te prochur bristi, office jete 1 ghonta deri hoye gelo.",bn-en,True,neutral,52,off_topic,426,11
+1147,Facebook,2026-06-29 20:03:00,Tania81,"Notun phone kinbo vabtesi, keu Robi er offer jano?",bn-en,True,neutral,51,off_topic,390,22
+1527,Facebook,2026-06-04 00:37:00,Rasel17,5000 taka TakaPay theke katlo but receiver pay nai. 2 din dhore atke ache.,bn-en,True,negative,12,failed_transaction,290,91
+1108,Reddit,2026-06-17 21:44:00,Arif49,আমার একাউন্ট থেকে 1500 টাকা কেটে নিয়েছে কিন্তু Teletalk রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,positive,92,failed_transaction,188,73
+1258,Instagram,2026-06-09 04:47:00,Rakib93,"NgoodPay er cash out charge 800 e onek kom, tai TakaPay chere switch korlam.",bn-en,True,negative,8,competitor,287,94
+1320,Twitter,2026-06-20 21:42:00,Priya11,আমার একাউন্ট থেকে 1500 টাকা কেটে নিয়েছে কিন্তু Grameenphone রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,30,failed_transaction,74,50
+1167,Facebook,2026-06-11 00:54:00,Tanvir80,Why is TakaPay charging 23 taka to cash out 1000? This is robbery.,en,True,negative,7,charges_fees,443,47
+1062,YouTube,2026-06-03 04:43:00,Arif14,"Payment korar somoy TakaPay freeze hoye gelo, taka gelo kina bujhtesi na. Osojjho.",bn-en,True,negative,30,app_crash,26,106
+1276,TikTok,2026-06-11 20:44:00,Priya16,"baba কে টাকা পাঠিয়েছি 30 min আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,10,failed_transaction,459,36
+1143,Facebook,2026-06-10 17:02:00,Zubair54,"Notun phone kinbo vabtesi, keu Airtel er offer jano?",bn-en,True,positive,49,off_topic,320,16
+1057,Instagram,2026-06-04 11:31:00,Rifat65,Ajke TakaPay cashback e 300 taka fire pelam. Regular user hoye gelam 😍,bn-en,True,positive,81,cashback_offer,495,57
+1499,Facebook,2026-06-01 20:51:00,Sadia56,"amar bon কে 10000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,74,send_money,158,61
+1393,Facebook,2026-06-03 06:41:00,Mehedi53,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Chittagong eo kaj kore.",bn-en,True,negative,13,competitor,121,43
+1568,Facebook,2026-06-14 13:24:00,Hasan10,"amar bon কে 1500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,90,send_money,235,70
+1583,TikTok,2026-06-08 22:33:00,Rifat78,"TakaPay diye baba ke 2500 taka pathalam, 2 ghonta hoye gelo ekhono pending!",bn-en,True,negative,16,failed_transaction,53,5
+1461,Facebook,2026-06-25 23:10:00,Prova45,"bhai কে টাকা পাঠিয়েছি 1 week আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,28,failed_transaction,99,92
+1601,Facebook,2026-06-25 19:00:00,Rasel52,"TakaPay e credit card bill dilam ar 800 taka cashback pelam, darun offer!",bn-en,True,positive,74,cashback_offer,483,102
+1508,Twitter,2026-06-21 17:21:00,Sumaiya60,"TakaPay e gas bill dilam ar 800 taka cashback pelam, darun offer!",bn-en,True,positive,89,cashback_offer,259,1
+1301,Facebook,2026-06-22 14:47:00,Shuvo33,"Ajke Mohakhali te prochur bristi, office jete 30 min deri hoye gelo.",bn-en,True,positive,47,off_topic,92,65
+1023,TikTok,2026-06-24 13:23:00,Shuvo46,TakaPay agent kothay pabo Chittagong te? Cash out korte hobe.,bn-en,True,neutral,52,agent_network,374,3
+1531,Facebook,2026-06-24 10:31:00,Rasel94,"Banglalink recharge NgoodPay diye korle 1000 e extra bonus, TakaPay e nai.",bn-en,True,negative,22,competitor,281,13
+1327,Facebook,2026-06-02 03:55:00,Mitu48,Why is TakaPay charging 15 taka to cash out 500? This is robbery.,en,True,negative,16,charges_fees,36,78
+1348,Reddit,2026-06-08 15:13:00,Prova18,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Khulna eo kaj kore.",bn-en,True,negative,16,competitor,460,60
+1303,TikTok,2026-06-09 18:09:00,Rifat61,"colleague কে টাকা পাঠিয়েছি 1 week আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,25,failed_transaction,103,39
+1463,Facebook,2026-06-24 07:46:00,Jony25,"Ajke Uttara te prochur bristi, office jete 30 min deri hoye gelo.",bn-en,True,neutral,57,off_topic,410,6
+1505,News/Media,2026-06-16 16:42:00,Hasan44,"Rajshahi e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,27,competitor,221,111
+1138,Facebook,2026-06-27 07:51:00,Imran30,"TakaPay e electricity bill dilam ar 1500 taka cashback pelam, darun offer!",bn-en,True,positive,80,cashback_offer,95,99
+1096,Twitter,2026-06-23 23:00:00,Farhana19,"TakaPay e gas bill dilam ar 2500 taka cashback pelam, darun offer!",bn-en,True,positive,74,cashback_offer,178,36
+1338,Instagram,2026-06-11 14:06:00,Shuvo4,"landlord কে 2500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,80,send_money,344,90
+1593,Instagram,2026-06-25 15:01:00,Imran88,"Instant Robi recharge on TakaPay, 2000 taka, done before I finished my tea.",en,True,positive,85,recharge,103,55
+1331,Reddit,2026-06-10 20:24:00,Priya81,"amar bon কে টাকা পাঠিয়েছি 4 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,13,failed_transaction,239,6
+1269,Facebook,2026-06-18 02:18:00,Rifat24,আমার একাউন্ট থেকে 500 টাকা কেটে নিয়েছে কিন্তু Robi রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,27,failed_transaction,199,34
+1318,YouTube,2026-06-03 05:36:00,Sumaiya66,"bhai কে টাকা পাঠিয়েছি sararat আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,8,failed_transaction,121,19
+1223,Twitter,2026-06-25 02:52:00,Mitu73,Khulna e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,58,agent_network,225,50
+1371,News/Media,2026-06-10 12:57:00,Oishi26,"No more standing in line for gas bill payments, TakaPay just handled it 🙌",en,True,positive,87,bill_payment,334,92
+1529,Facebook,2026-06-06 10:49:00,Tuhin54,আমার একাউন্ট থেকে 2000 টাকা কেটে নিয়েছে কিন্তু Banglalink রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,19,failed_transaction,221,82
+1462,YouTube,2026-06-01 22:45:00,Sabbir17,1500 taka TakaPay theke katlo but receiver pay nai. sararat dhore atke ache.,bn-en,True,negative,22,failed_transaction,33,87
+1151,TikTok,2026-06-21 12:22:00,Nafisa96,"TakaPay e DPDC bill dilam ar 300 taka cashback pelam, darun offer!",bn-en,True,positive,80,cashback_offer,95,118
+1078,Reddit,2026-06-18 00:22:00,Sumaiya57,"Instant Grameenphone recharge on TakaPay, 1500 taka, done before I finished my tea.",en,True,positive,93,recharge,86,13
+1443,Facebook,2026-06-15 04:03:00,Rasel16,"bhai কে টাকা পাঠিয়েছি 3 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,9,failed_transaction,248,6
+1385,News/Media,2026-06-13 12:10:00,Fahim83,5000 taka TakaPay theke katlo but receiver pay nai. sararat dhore atke ache.,bn-en,True,negative,15,failed_transaction,260,10
+1497,YouTube,2026-06-29 08:12:00,Anika11,"Instant Banglalink recharge on TakaPay, 10000 taka, done before I finished my tea.",en,True,positive,76,recharge,213,84
+1626,News/Media,2026-06-03 05:13:00,Anika21,"Instant Robi recharge on TakaPay, 500 taka, done before I finished my tea.",en,True,positive,82,recharge,133,42
+1333,YouTube,2026-06-08 08:52:00,Fahim28,"amar bon কে 2500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,81,send_money,228,10
+1438,YouTube,2026-06-01 17:47:00,Hasan7,"Ei Chittagong er biryani ta must try, khub valo.",bn-en,True,neutral,54,off_topic,297,7
+1175,Facebook,2026-06-26 15:05:00,Rifat47,"ma কে 1500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,79,send_money,18,20
+1054,Instagram,2026-06-14 01:49:00,Tuhin6,TakaPay দিয়ে tuition fee দেওয়া যায় কিনা কেউ বলতে পারবেন?,bn,True,neutral,47,feature_query,315,80
+1394,Reddit,2026-06-27 09:57:00,Sumaiya2,"NgoodPay er bill pay UI ta TakaPay theke clean, credit card bill dite easy laglo.",bn-en,True,negative,9,competitor,490,49
+1391,YouTube,2026-06-20 13:44:00,Tuhin68,1500 taka TakaPay theke katlo but receiver pay nai. 4 din dhore atke ache.,bn-en,True,negative,27,failed_transaction,228,57
+1411,Facebook,2026-06-05 08:46:00,Jony45,Chittagong e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,55,agent_network,468,93
+1254,YouTube,2026-06-12 07:27:00,Maliha49,"colleague কে টাকা পাঠিয়েছি 2 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,15,failed_transaction,410,55
+1599,News/Media,2026-06-13 19:51:00,Tanvir57,"TakaPay e tuition fee dilam ar 2500 taka cashback pelam, darun offer!",bn-en,True,negative,10,cashback_offer,40,17
+1485,Facebook,2026-06-26 17:18:00,Hasan67,"colleague কে 5000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,72,send_money,66,83
+1422,Instagram,2026-06-07 14:30:00,Nusrat55,"TakaPay diye ma ke 2000 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,17,failed_transaction,374,27
+1415,Facebook,2026-06-09 18:04:00,Anika81,"Instant Banglalink recharge on TakaPay, 5000 taka, done before I finished my tea.",en,True,positive,83,recharge,118,54
+1482,Facebook,2026-06-25 23:00:00,Mitu7,"Uttara e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,6,competitor,41,36
+1441,Facebook,2026-06-15 22:52:00,Hasan29,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Rajshahi eo kaj kore.",bn-en,True,negative,23,competitor,305,80
+1654,Instagram,2026-06-18 00:51:00,Sumaiya84,TakaPay দিয়ে tuition fee দেওয়া যায় কিনা কেউ বলতে পারবেন?,bn,True,neutral,47,feature_query,315,80
+1418,Facebook,2026-06-04 18:03:00,Priya91,"TakaPay diye baba ke 2000 taka pathalam, 24 ghonta hoye gelo ekhono pending!",bn-en,True,negative,12,failed_transaction,433,93
+1275,Facebook,2026-06-19 19:19:00,Tanvir65,"NgoodPay notun 1000 taka cashback offer diyeche, keu try koreche?",bn-en,True,negative,16,competitor,1,109
+1235,YouTube,2026-06-11 18:45:00,Zubair3,TakaPay customer care 30 min e call dhorlo ar problem solve kore dilo. Impressed.,bn-en,True,positive,92,customer_care,111,6
+1182,News/Media,2026-06-07 16:09:00,Anika46,"Traffic ajke Khulna e insane, 2 ghonta laglo pouchte.",bn-en,True,neutral,55,off_topic,127,111
+1018,Facebook,2026-06-17 13:09:00,Lamia4,"TakaPay er cashback gulo genuinely kaje lage, 800 taka bachlo ei mashe.",bn-en,True,positive,89,cashback_offer,36,111
+1298,Reddit,2026-06-06 08:38:00,Shuvo62,"TakaPay diye landlord ke 10000 taka pathalam, 2 din hoye gelo ekhono pending!",bn-en,True,negative,8,failed_transaction,472,22
+1444,TikTok,2026-06-10 20:23:00,Farhana73,আমার একাউন্ট থেকে 10000 টাকা কেটে নিয়েছে কিন্তু Grameenphone রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,15,failed_transaction,203,56
+1445,Facebook,2026-06-07 12:03:00,Rasel75,আমার একাউন্ট থেকে 1000 টাকা কেটে নিয়েছে কিন্তু Banglalink রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,28,failed_transaction,289,8
+1102,TikTok,2026-06-21 08:02:00,Tuhin80,Why is TakaPay charging 15 taka to cash out 5000? This is robbery.,en,True,negative,20,charges_fees,399,104
+1119,Facebook,2026-06-02 07:23:00,Rakib6,"TakaPay e electricity bill dilam ar 800 taka cashback pelam, darun offer!",bn-en,True,positive,83,cashback_offer,70,88
+1423,YouTube,2026-06-20 23:06:00,Sabbir78,"Instant Airtel recharge on TakaPay, 800 taka, done before I finished my tea.",en,True,positive,81,recharge,84,75
+1459,Facebook,2026-06-15 19:27:00,Shuvo96,"Instant Teletalk recharge on TakaPay, 800 taka, done before I finished my tea.",en,True,negative,16,recharge,400,25
+1558,Facebook,2026-06-15 10:27:00,Rasel36,"Grameenphone recharge NgoodPay diye korle 1000 e extra bonus, TakaPay e nai.",bn-en,True,negative,14,competitor,468,67
+1565,Facebook,2026-06-11 18:36:00,Nusrat77,1000 taka TakaPay theke katlo but receiver pay nai. 30 min dhore atke ache.,bn-en,True,negative,13,failed_transaction,407,119
+1597,YouTube,2026-06-18 10:08:00,Rasel39,"TakaPay e credit card bill dilam ar 500 taka cashback pelam, darun offer!",bn-en,True,positive,76,cashback_offer,359,15
+1036,Facebook,2026-06-22 06:53:00,Mitu96,ma bollo NgoodPay er customer care TakaPay er cheye onek valo.,bn-en,True,negative,14,competitor,487,12
+1517,News/Media,2026-06-04 21:12:00,Shuvo43,"TakaPay e DPDC bill dilam ar 2500 taka cashback pelam, darun offer!",bn-en,True,positive,92,cashback_offer,481,2
+1047,YouTube,2026-06-21 06:57:00,Rakib34,Can I pay my gas bill with TakaPay or only send money?,en,True,neutral,50,feature_query,186,42
+1114,Reddit,2026-06-09 10:47:00,Mitu21,"TakaPay e DESCO bill dilam ar 10000 taka cashback pelam, darun offer!",bn-en,True,positive,72,cashback_offer,29,116
+1140,Instagram,2026-06-12 05:18:00,Shuvo22,5000 taka TakaPay theke katlo but receiver pay nai. 30 min dhore atke ache.,bn-en,True,negative,28,failed_transaction,276,76
+1364,Reddit,2026-06-12 02:02:00,Sumaiya76,Why is TakaPay charging 20 taka to cash out 2500? This is robbery.,en,True,negative,13,charges_fees,123,48
+1504,Twitter,2026-06-16 06:29:00,Tanvir36,"Instant Grameenphone recharge on TakaPay, 800 taka, done before I finished my tea.",en,True,positive,73,recharge,473,19
+1299,Instagram,2026-06-11 21:08:00,Prova44,Ajke TakaPay cashback e 2000 taka fire pelam. Regular user hoye gelam 😍,bn-en,True,positive,86,cashback_offer,284,7
+1554,Facebook,2026-06-26 01:38:00,Maliha50,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Mirpur 10 eo kaj kore.",bn-en,True,negative,6,competitor,21,26
+1469,Facebook,2026-06-10 08:21:00,Hasan20,"ma কে টাকা পাঠিয়েছি 1 week আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,positive,74,failed_transaction,474,108
+1635,TikTok,2026-06-08 10:09:00,Sumaiya31,"TakaPay e DPDC bill dilam ar 800 taka cashback pelam, darun offer!",bn-en,True,positive,76,cashback_offer,17,78
+1439,Facebook,2026-06-25 05:39:00,Oishi36,Why is TakaPay charging 23 taka to cash out 5000? This is robbery.,en,True,negative,13,charges_fees,478,66
+1099,Facebook,2026-06-19 04:37:00,Priya21,Uttara e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,51,agent_network,196,45
+1586,Reddit,2026-06-14 04:00:00,Zubair48,"TakaPay er cashback gulo genuinely kaje lage, 1000 taka bachlo ei mashe.",bn-en,True,positive,89,cashback_offer,171,82
+1196,Facebook,2026-06-02 08:15:00,Sabbir23,Can I pay my tuition fee with TakaPay or only send money?,en,True,neutral,48,feature_query,254,98
+1256,Facebook,2026-06-19 14:39:00,Mehedi42,bhai bollo NgoodPay er customer care TakaPay er cheye onek valo.,bn-en,True,negative,23,competitor,18,35
+1536,TikTok,2026-06-22 23:48:00,Sumaiya97,"Ajke Chittagong te prochur bristi, office jete 30 min deri hoye gelo.",bn-en,True,positive,55,off_topic,43,28
+1643,Instagram,2026-06-27 01:56:00,Sakib2,"TakaPay e electricity bill dilam ar 10000 taka cashback pelam, darun offer!",bn-en,True,positive,80,cashback_offer,268,38
+1430,Reddit,2026-06-26 08:43:00,Rasel12,"Instant Teletalk recharge on TakaPay, 10000 taka, done before I finished my tea.",en,True,positive,77,recharge,68,117
+1490,Facebook,2026-06-04 13:39:00,Tanvir76,"baba কে 300 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,91,send_money,282,70
+1112,Facebook,2026-06-30 01:05:00,Imran86,"TakaPay e gas bill dilam ar 5000 taka cashback pelam, darun offer!",bn-en,True,positive,75,cashback_offer,400,34
+1609,Instagram,2026-06-12 14:44:00,Imran76,আমার একাউন্ট থেকে 800 টাকা কেটে নিয়েছে কিন্তু Teletalk রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,30,failed_transaction,140,106
+1104,News/Media,2026-06-18 04:43:00,Fahim18,Can I pay my electricity bill with TakaPay or only send money?,en,True,neutral,46,feature_query,13,109
+1088,TikTok,2026-06-11 17:13:00,Imran37,Mohakhali e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,50,agent_network,452,116
+1115,Reddit,2026-06-10 01:55:00,Priya78,"Notun phone kinbo vabtesi, keu Teletalk er offer jano?",bn-en,True,neutral,49,off_topic,329,64
+1095,Facebook,2026-06-19 11:41:00,Mehedi47,800 taka TakaPay theke katlo but receiver pay nai. 24 ghonta dhore atke ache.,bn-en,True,negative,9,failed_transaction,235,98
+1031,Facebook,2026-06-07 19:37:00,Farhana19,"Been recharging my Airtel number on TakaPay for two years, never failed once.",en,True,positive,77,recharge,242,79
+1068,YouTube,2026-06-12 07:22:00,Rima52,TakaPay customer care 1 min e call dhorlo ar problem solve kore dilo. Impressed.,bn-en,True,positive,74,customer_care,330,57
+1052,News/Media,2026-06-12 03:07:00,Shuvo34,"TakaPay helpline e 20 min wait korlam, keu dhorlo na.",bn-en,True,negative,26,customer_care,1,58
+1026,Facebook,2026-06-20 17:57:00,Oishi82,Can I pay my WASA bill with TakaPay or only send money?,en,True,neutral,60,feature_query,170,11
+1383,Facebook,2026-06-01 17:15:00,Rakib20,2000 taka TakaPay theke katlo but receiver pay nai. 30 min dhore atke ache.,bn-en,True,negative,21,failed_transaction,257,28
+1606,Facebook,2026-06-06 20:27:00,Tuhin93,"colleague কে টাকা পাঠিয়েছি 4 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,29,failed_transaction,354,91
+1038,Facebook,2026-06-18 11:48:00,Sumaiya67,"TakaPay support ke 3 bar mail korlam, akta reply o nai. Faltu service.",bn-en,True,negative,28,customer_care,319,37
+1063,News/Media,2026-06-15 08:43:00,Sabbir99,TakaPay agent kothay pabo Bashundhara te? Cash out korte hobe.,bn-en,True,neutral,58,agent_network,191,100
+1252,Instagram,2026-06-05 00:23:00,Maliha97,Paid my DESCO bill on TakaPay in under a minute. Genuinely smooth experience.,en,True,positive,75,bill_payment,110,72
+1236,Twitter,2026-06-07 05:16:00,Rakib25,"TakaPay e DESCO bill dilam ar 500 taka cashback pelam, darun offer!",bn-en,True,positive,74,cashback_offer,138,68
+1222,YouTube,2026-06-16 15:05:00,Priya82,TakaPay দিয়ে DPDC bill দেওয়া যায় কিনা কেউ বলতে পারবেন?,bn,True,neutral,49,feature_query,14,108
+1292,News/Media,2026-06-01 15:52:00,Tanvir47,"bhai কে 500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,74,send_money,38,18
+1106,Instagram,2026-06-10 11:32:00,Mehedi34,"NgoodPay notun 1500 taka cashback offer diyeche, keu try koreche?",bn-en,True,negative,22,competitor,315,64
+1465,Facebook,2026-06-19 11:33:00,Oishi10,"TakaPay diye baba ke 5000 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,12,failed_transaction,300,74
+1071,Facebook,2026-06-30 09:03:00,Zubair39,"TakaPay e gas bill dilam ar 1000 taka cashback pelam, darun offer!",bn-en,True,positive,90,cashback_offer,492,16
+1288,Twitter,2026-06-13 11:29:00,Oishi32,"TakaPay saved me a trip today, cleared my DPDC bill from bed. Love it.",en,True,positive,91,bill_payment,6,52
+1281,Facebook,2026-06-22 10:05:00,Farhana52,"baba কে টাকা পাঠিয়েছি 3 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,24,failed_transaction,333,86
+1103,Instagram,2026-06-23 22:52:00,Priya85,"TakaPay diye amar friend ke 2500 taka pathalam, sararat hoye gelo ekhono pending!",bn-en,True,negative,8,failed_transaction,20,5
+1080,TikTok,2026-06-17 23:06:00,Rasel58,"Traffic ajke Dhanmondi 27 e insane, 2 ghonta laglo pouchte.",bn-en,True,neutral,60,off_topic,98,41
+1049,Reddit,2026-06-27 16:56:00,Nusrat51,"TakaPay e internet bill dilam ar 500 taka cashback pelam, darun offer!",bn-en,True,positive,76,cashback_offer,11,38
+1365,Facebook,2026-06-28 06:28:00,Rifat61,"TakaPay diye colleague ke 2500 taka pathalam, 2 din hoye gelo ekhono pending!",bn-en,True,negative,13,failed_transaction,280,49
+1165,Twitter,2026-06-03 16:44:00,Sakib71,Why is TakaPay charging 18 taka to cash out 300? This is robbery.,en,True,negative,14,charges_fees,463,3
+1234,YouTube,2026-06-15 00:57:00,Arif94,"ma কে টাকা পাঠিয়েছি 3 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,10,failed_transaction,292,70
+1324,Facebook,2026-06-11 08:06:00,Rakib87,"landlord কে টাকা পাঠিয়েছি 24 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,positive,81,failed_transaction,210,96
+1279,Twitter,2026-06-15 11:54:00,Shuvo17,"NgoodPay er bill pay UI ta TakaPay theke clean, DPDC bill dite easy laglo.",bn-en,True,negative,8,competitor,435,13
+1064,News/Media,2026-06-10 06:12:00,Nafisa11,"Ei TakaPay redesign ta valo hoyeche, ekhon সব kichu hate paoa jai.",bn-en,True,negative,23,app_experience,25,119
+1357,News/Media,2026-06-22 16:18:00,Mitu91,"TakaPay er cashback gulo genuinely kaje lage, 5000 taka bachlo ei mashe.",bn-en,True,positive,83,cashback_offer,473,111
+1361,Reddit,2026-06-18 18:02:00,Farhana49,"Instant Teletalk recharge on TakaPay, 1500 taka, done before I finished my tea.",en,True,positive,72,recharge,400,1
+1389,Reddit,2026-06-11 00:12:00,Rima60,1000 taka TakaPay theke katlo but receiver pay nai. 24 ghonta dhore atke ache.,bn-en,True,positive,72,failed_transaction,6,56
+1227,News/Media,2026-06-24 21:07:00,Hasan93,"Ei Dhanmondi 27 er biryani ta must try, khub valo.",bn-en,True,neutral,56,off_topic,250,5
+1152,YouTube,2026-06-15 05:19:00,Nafisa77,"TakaPay er cashback gulo genuinely kaje lage, 500 taka bachlo ei mashe.",bn-en,True,positive,84,cashback_offer,84,110
+1055,Instagram,2026-06-13 05:34:00,Anika13,TakaPay agent kothay pabo Sylhet te? Cash out korte hobe.,bn-en,True,neutral,46,agent_network,354,27
+1004,News/Media,2026-06-06 08:39:00,Mehedi40,"No more standing in line for tuition fee payments, TakaPay just handled it 🙌",en,True,positive,76,bill_payment,286,104
+1302,Facebook,2026-06-01 13:46:00,Hasan62,Why is TakaPay charging 23 taka to cash out 300? This is robbery.,en,True,negative,27,charges_fees,119,8
+1202,Facebook,2026-06-01 08:20:00,Sakib38,"Ajke Uttara te prochur bristi, office jete 1 ghonta deri hoye gelo.",bn-en,True,positive,57,off_topic,202,71
+1660,Instagram,2026-06-02 03:58:00,Nusrat67,"Instant Airtel recharge on TakaPay, 2500 taka, done before I finished my tea.",en,True,positive,80,recharge,288,83
+1397,News/Media,2026-06-03 01:17:00,Zubair38,"NgoodPay er bill pay UI ta TakaPay theke clean, internet bill dite easy laglo.",bn-en,True,negative,26,competitor,484,85
+1266,Twitter,2026-06-19 17:58:00,Oishi53,"Ajke Motijheel te prochur bristi, office jete 30 min deri hoye gelo.",bn-en,True,neutral,45,off_topic,16,11
+1247,Reddit,2026-06-19 15:47:00,Oishi19,"landlord কে টাকা পাঠিয়েছি 30 min আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,18,failed_transaction,459,81
+1287,YouTube,2026-06-07 02:30:00,Arif39,"Ajke Uttara te prochur bristi, office jete 2 ghonta deri hoye gelo.",bn-en,True,positive,59,off_topic,433,44
+1621,Facebook,2026-06-12 21:28:00,Sumaiya71,800 taka TakaPay theke katlo but receiver pay nai. 3 din dhore atke ache.,bn-en,True,negative,18,failed_transaction,307,82
+1169,Instagram,2026-06-07 19:10:00,Arif54,"TakaPay e DPDC bill dilam ar 10000 taka cashback pelam, darun offer!",bn-en,True,positive,76,cashback_offer,210,31
+1212,Instagram,2026-06-09 14:45:00,Nusrat90,Banani e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,49,agent_network,422,103
+1372,News/Media,2026-06-28 09:00:00,Mehedi81,1500 taka TakaPay theke katlo but receiver pay nai. 30 min dhore atke ache.,bn-en,True,negative,23,failed_transaction,459,16
+1619,Instagram,2026-06-11 15:02:00,Imran3,Why is TakaPay charging 15 taka to cash out 2500? This is robbery.,en,True,negative,9,charges_fees,429,107
+1056,Instagram,2026-06-22 05:22:00,Tuhin16,Heard TakaPay is rolling out a savings feature next month.,en,True,neutral,59,product_news,457,70
+1016,News/Media,2026-06-18 20:34:00,Rima52,"ma কে টাকা পাঠিয়েছি 2 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,20,failed_transaction,201,13
+1174,Facebook,2026-06-28 20:56:00,Anika91,"Instant Banglalink recharge on TakaPay, 800 taka, done before I finished my tea.",en,True,positive,78,recharge,321,103
+1297,Facebook,2026-06-03 07:14:00,Sadia85,"ma কে 5000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,80,send_money,193,107
+1589,Facebook,2026-06-05 05:15:00,Maliha82,"colleague কে 10000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,84,send_money,41,4
+1241,Reddit,2026-06-16 23:02:00,Nusrat30,"TakaPay diye colleague ke 300 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,26,failed_transaction,288,48
+1377,TikTok,2026-06-16 23:04:00,Nusrat41,5000 taka TakaPay theke katlo but receiver pay nai. 2 ghonta dhore atke ache.,bn-en,True,negative,13,failed_transaction,387,49
+1466,Facebook,2026-06-23 02:35:00,Rifat80,"TakaPay e gas bill dilam ar 2000 taka cashback pelam, darun offer!",bn-en,True,positive,88,cashback_offer,410,74
+1544,Reddit,2026-06-09 10:26:00,Oishi69,"colleague কে 2000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,81,send_money,309,14
+1233,TikTok,2026-06-01 07:53:00,Sakib86,Why is TakaPay charging 20 taka to cash out 800? This is robbery.,en,True,negative,10,charges_fees,232,51
+1629,Twitter,2026-06-27 20:27:00,Tuhin42,"bhai কে টাকা পাঠিয়েছি 4 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,7,failed_transaction,22,20
+1489,Twitter,2026-06-25 07:27:00,Sakib10,"Grameenphone recharge NgoodPay diye korle 300 e extra bonus, TakaPay e nai.",bn-en,True,negative,26,competitor,144,53
+1085,Facebook,2026-06-12 06:07:00,Nabil9,আমার একাউন্ট থেকে 10000 টাকা কেটে নিয়েছে কিন্তু Robi রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,18,failed_transaction,332,4
+1107,Twitter,2026-06-18 03:36:00,Farhana34,"TakaPay saved me a trip today, cleared my internet bill from bed. Love it.",en,True,positive,93,bill_payment,58,98
+1284,Facebook,2026-06-02 08:27:00,Rasel83,"bhai কে টাকা পাঠিয়েছি 24 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,6,failed_transaction,420,10
+1051,Facebook,2026-06-02 21:43:00,Imran82,"NgoodPay e send money ekhono free, TakaPay to charge nite shuru korlo.",bn-en,True,negative,8,competitor,184,13
+1170,TikTok,2026-06-26 11:36:00,Shuvo37,"NgoodPay notun 10000 taka cashback offer diyeche, keu try koreche?",bn-en,True,negative,7,competitor,61,32
+1066,TikTok,2026-06-17 18:17:00,Arif73,"No more standing in line for electricity bill payments, TakaPay just handled it 🙌",en,True,positive,82,bill_payment,103,113
+1094,Facebook,2026-06-17 13:20:00,Fahim26,2000 taka TakaPay theke katlo but receiver pay nai. 24 ghonta dhore atke ache.,bn-en,True,negative,19,failed_transaction,200,93
+1659,Reddit,2026-06-27 11:38:00,Prova46,"Instant Teletalk recharge on TakaPay, 1500 taka, done before I finished my tea.",en,True,positive,72,recharge,400,1
+1048,Facebook,2026-06-22 14:26:00,Arif65,Paid my credit card bill on TakaPay in under a minute. Genuinely smooth experience.,en,True,positive,84,bill_payment,335,25
+1514,Instagram,2026-06-03 09:12:00,Nabil11,"Instant Banglalink recharge on TakaPay, 2500 taka, done before I finished my tea.",en,True,negative,20,recharge,456,106
+1646,Facebook,2026-06-01 13:52:00,Jony88,"Banglalink recharge NgoodPay diye korle 2500 e extra bonus, TakaPay e nai.",bn-en,True,negative,19,competitor,479,102
+1286,Facebook,2026-06-04 14:07:00,Tanvir6,"Traffic ajke Rajshahi e insane, 2 ghonta laglo pouchte.",bn-en,True,positive,51,off_topic,58,87
+1386,Facebook,2026-06-15 09:49:00,Priya65,"Instant Banglalink recharge on TakaPay, 1000 taka, done before I finished my tea.",en,True,positive,83,recharge,149,92
+1011,Reddit,2026-06-16 19:01:00,Rakib60,"TakaPay e login korte parci na, verification code kokhono ashe na.",bn-en,True,negative,15,login_otp,181,21
+1532,News/Media,2026-06-23 13:32:00,Mehedi81,"TakaPay diye landlord ke 2500 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,negative,28,failed_transaction,149,113
+1537,Facebook,2026-06-13 23:35:00,Jony4,"TakaPay diye bhai ke 1000 taka pathalam, 2 ghonta hoye gelo ekhono pending!",bn-en,True,negative,22,failed_transaction,211,75
+1448,Reddit,2026-06-12 13:51:00,Tania20,5000 taka TakaPay theke katlo but receiver pay nai. 3 din dhore atke ache.,bn-en,True,negative,13,failed_transaction,131,99
+1131,Reddit,2026-06-24 14:04:00,Anika85,"landlord কে 300 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,91,send_money,476,111
+1633,News/Media,2026-06-27 11:39:00,Mitu68,500 taka TakaPay theke katlo but receiver pay nai. 2 din dhore atke ache.,bn-en,True,negative,9,failed_transaction,156,50
+1566,Facebook,2026-06-18 14:08:00,Rakib27,1500 taka TakaPay theke katlo but receiver pay nai. 1 week dhore atke ache.,bn-en,True,positive,94,failed_transaction,472,68
+1577,Twitter,2026-06-21 20:55:00,Farhana66,"TakaPay diye landlord ke 500 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,29,failed_transaction,94,111
+1419,YouTube,2026-06-25 00:56:00,Nusrat35,"amar friend কে টাকা পাঠিয়েছি 2 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,19,failed_transaction,69,59
+1353,Facebook,2026-06-27 17:13:00,Nusrat64,"bhai কে 10000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,85,send_money,62,108
+1442,Facebook,2026-06-14 14:38:00,Rakib79,"TakaPay e credit card bill dilam ar 10000 taka cashback pelam, darun offer!",bn-en,True,positive,73,cashback_offer,362,103
+1300,Reddit,2026-06-06 00:12:00,Nusrat56,"No more standing in line for WASA bill payments, TakaPay just handled it 🙌",en,True,positive,90,bill_payment,268,7
+1215,YouTube,2026-06-21 09:21:00,Sadia21,"TakaPay diye amar friend ke 1500 taka pathalam, 1 week hoye gelo ekhono pending!",bn-en,True,negative,9,failed_transaction,166,56
+1020,Facebook,2026-06-07 13:24:00,Sadia96,"landlord কে 5000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,81,send_money,175,94
+1548,News/Media,2026-06-24 09:33:00,Priya64,"amar friend কে 800 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,74,send_money,244,85
+1640,TikTok,2026-06-19 15:39:00,Fahim12,"TakaPay diye amar bon ke 300 taka pathalam, 4 din hoye gelo ekhono pending!",bn-en,True,negative,15,failed_transaction,281,116
+1340,Twitter,2026-06-15 11:38:00,Fahim97,"Robi recharge NgoodPay diye korle 300 e extra bonus, TakaPay e nai.",bn-en,True,negative,24,competitor,286,33
+1013,Reddit,2026-06-26 00:08:00,Arif18,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Uttara eo kaj kore.",bn-en,True,negative,20,competitor,419,55
+1590,TikTok,2026-06-25 00:41:00,Jony72,"TakaPay diye landlord ke 1000 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,negative,29,failed_transaction,251,89
+1278,Facebook,2026-06-02 19:15:00,Rasel60,Ajke TakaPay cashback e 10000 taka fire pelam. Regular user hoye gelam 😍,bn-en,True,positive,91,cashback_offer,56,61
+1336,YouTube,2026-06-11 09:01:00,Mitu8,"TakaPay diye ma ke 300 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,positive,76,failed_transaction,223,33
+1547,News/Media,2026-06-15 23:34:00,Anika47,"Khulna e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,27,competitor,489,92
+1644,Facebook,2026-06-14 05:22:00,Sakib89,"TakaPay diye landlord ke 5000 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,negative,6,failed_transaction,136,77
+1476,News/Media,2026-06-16 17:42:00,Anika2,"amar bon কে 5000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,93,send_money,56,11
+1436,Reddit,2026-06-25 08:13:00,Arif43,Why is TakaPay charging 15 taka to cash out 2000? This is robbery.,en,True,positive,78,charges_fees,129,68
+1245,Facebook,2026-06-13 10:09:00,Zubair23,1000 taka TakaPay theke katlo but receiver pay nai. 1 week dhore atke ache.,bn-en,True,negative,29,failed_transaction,7,33
+1535,Instagram,2026-06-15 20:03:00,Lamia2,"Mirpur 10 e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,12,competitor,276,60
+1426,Twitter,2026-06-26 04:02:00,Jony91,"Ajke Bashundhara te prochur bristi, office jete 30 min deri hoye gelo.",bn-en,True,neutral,57,off_topic,51,95
+1135,Instagram,2026-06-14 09:30:00,Tuhin71,TakaPay agent kothay pabo Gulshan 1 te? Cash out korte hobe.,bn-en,True,neutral,58,agent_network,332,16
+1569,Twitter,2026-06-28 00:48:00,Farhana67,1000 taka TakaPay theke katlo but receiver pay nai. 2 ghonta dhore atke ache.,bn-en,True,positive,92,failed_transaction,100,13
+1129,Reddit,2026-06-11 02:58:00,Priya81,"NgoodPay er cash out charge 300 e onek kom, tai TakaPay chere switch korlam.",bn-en,True,negative,18,competitor,151,59
+1197,Facebook,2026-06-07 14:45:00,Farhana67,"TakaPay app barbar crash korche, WASA bill dite partesi na. Worst timing.",bn-en,True,negative,19,app_crash,388,65
+1553,Reddit,2026-06-17 23:52:00,Nusrat94,"Instant Robi recharge on TakaPay, 1500 taka, done before I finished my tea.",en,True,positive,77,recharge,368,19
+1388,YouTube,2026-06-21 21:34:00,Shuvo43,"TakaPay diye colleague ke 500 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,positive,83,failed_transaction,159,76
+1007,News/Media,2026-06-23 12:47:00,Sakib44,TakaPay agent kothay pabo Rajshahi te? Cash out korte hobe.,bn-en,True,neutral,54,agent_network,373,57
+1046,Reddit,2026-06-24 00:37:00,Anika37,"NgoodPay notun 300 taka cashback offer diyeche, keu try koreche?",bn-en,True,negative,8,competitor,306,31
+1155,Twitter,2026-06-12 23:18:00,Arif55,Bashundhara e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,45,agent_network,80,75
+1487,Instagram,2026-06-08 15:26:00,Prova91,"Ajke Khulna te prochur bristi, office jete 1 ghonta deri hoye gelo.",bn-en,True,neutral,57,off_topic,311,63
+1480,YouTube,2026-06-19 16:10:00,Sumaiya37,"TakaPay er cashback gulo genuinely kaje lage, 2500 taka bachlo ei mashe.",bn-en,True,positive,75,cashback_offer,181,27
+1545,Facebook,2026-06-18 22:42:00,Imran7,"bhai কে 2000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,negative,19,send_money,270,63
+1041,Facebook,2026-06-28 16:17:00,Maliha29,300 taka TakaPay theke katlo but receiver pay nai. 3 din dhore atke ache.,bn-en,True,negative,14,failed_transaction,34,33
+1602,YouTube,2026-06-18 21:48:00,Rima16,"Teletalk recharge NgoodPay diye korle 1000 e extra bonus, TakaPay e nai.",bn-en,True,negative,17,competitor,335,8
+1649,TikTok,2026-06-18 01:46:00,Rima12,"TakaPay e tuition fee dilam ar 1500 taka cashback pelam, darun offer!",bn-en,True,positive,80,cashback_offer,178,100
+1216,Facebook,2026-06-16 02:19:00,Nafisa73,"TakaPay e DESCO bill dilam ar 5000 taka cashback pelam, darun offer!",bn-en,True,positive,87,cashback_offer,135,13
+1019,YouTube,2026-06-16 19:26:00,Lamia47,"সেন্ড মানি ফ্রি করায় TakaPay কে ধন্যবাদ, প্রতি মাসে অনেক টাকা সাশ্রয় হচ্ছে।",bn,True,positive,92,send_money,242,15
+1090,TikTok,2026-06-28 07:53:00,Rifat75,"Ajke Bashundhara te prochur bristi, office jete 1 ghonta deri hoye gelo.",bn-en,True,neutral,46,off_topic,99,119
+1117,Facebook,2026-06-06 14:38:00,Sumaiya96,Ajke TakaPay cashback e 1000 taka fire pelam. Regular user hoye gelam 😍,bn-en,True,positive,92,cashback_offer,473,88
+1238,YouTube,2026-06-30 15:45:00,Tuhin71,"Instant Airtel recharge on TakaPay, 300 taka, done before I finished my tea.",en,True,positive,92,recharge,500,90
+1653,Facebook,2026-06-10 15:51:00,Rima24,5000 taka TakaPay theke katlo but receiver pay nai. 2 din dhore atke ache.,bn-en,True,negative,12,failed_transaction,290,91
+1050,Twitter,2026-06-23 11:47:00,Imran37,Why is TakaPay charging 18 taka to cash out 2500? This is robbery.,en,True,negative,30,charges_fees,370,79
+1213,TikTok,2026-06-03 16:51:00,Farhana46,Why is TakaPay charging 18 taka to cash out 10000? This is robbery.,en,True,negative,14,charges_fees,177,52
+1199,TikTok,2026-06-21 11:20:00,Lamia50,TakaPay customer care 3 min e call dhorlo ar problem solve kore dilo. Impressed.,bn-en,True,positive,83,customer_care,10,6
+1180,TikTok,2026-06-07 16:48:00,Anika74,"Ajke Dhanmondi 27 te prochur bristi, office jete 30 min deri hoye gelo.",bn-en,True,neutral,52,off_topic,236,95
+1454,News/Media,2026-06-29 02:43:00,Tania14,"Instant Grameenphone recharge on TakaPay, 500 taka, done before I finished my tea.",en,True,positive,74,recharge,311,73
+1516,Facebook,2026-06-17 17:40:00,Zubair76,"ma কে 800 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,83,send_money,236,15
+1557,Instagram,2026-06-18 07:57:00,Zubair26,"TakaPay diye amar bon ke 1500 taka pathalam, 2 ghonta hoye gelo ekhono pending!",bn-en,True,negative,22,failed_transaction,14,113
+1622,Facebook,2026-06-22 20:01:00,Rima45,2500 taka TakaPay theke katlo but receiver pay nai. 2 ghonta dhore atke ache.,bn-en,True,negative,7,failed_transaction,232,8
+1002,Reddit,2026-06-04 04:18:00,Mitu12,আমার একাউন্ট থেকে 300 টাকা কেটে নিয়েছে কিন্তু Grameenphone রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,19,failed_transaction,282,54
+1125,Facebook,2026-06-19 06:17:00,Prova51,"TakaPay OTP ashteci na, sararat dhore login e atke achi. Fix koro please.",bn-en,True,negative,17,login_otp,456,113
+1009,Instagram,2026-06-27 09:24:00,Oishi59,"Instant Banglalink recharge on TakaPay, 2000 taka, done before I finished my tea.",en,True,positive,91,recharge,35,107
+1585,Facebook,2026-06-27 14:56:00,Zubair52,"amar bon কে টাকা পাঠিয়েছি 1 week আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,12,failed_transaction,446,63
+1262,Instagram,2026-06-16 20:03:00,Rakib97,"TakaPay saved me a trip today, cleared my electricity bill from bed. Love it.",en,True,positive,81,bill_payment,400,63
+1613,Facebook,2026-06-18 10:51:00,Nusrat87,"TakaPay diye ma ke 800 taka pathalam, 24 ghonta hoye gelo ekhono pending!",bn-en,True,negative,15,failed_transaction,447,82
+1582,News/Media,2026-06-19 02:13:00,Sabbir97,"TakaPay diye baba ke 10000 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,30,failed_transaction,221,44
+1035,Facebook,2026-06-10 16:18:00,Anika39,"bhai কে 1000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,85,send_money,401,15
+1087,TikTok,2026-06-25 12:15:00,Maliha86,"No more standing in line for DPDC bill payments, TakaPay just handled it 🙌",en,True,positive,91,bill_payment,388,15
+1003,Facebook,2026-06-27 06:21:00,Mehedi51,"Been recharging my Robi number on TakaPay for two years, never failed once.",en,True,positive,92,recharge,25,28
+1121,Facebook,2026-06-20 20:43:00,Priya99,"Ei Rajshahi er biryani ta must try, khub valo.",bn-en,True,neutral,58,off_topic,50,44
+1432,Instagram,2026-06-06 21:08:00,Mehedi77,landlord bollo NgoodPay er customer care TakaPay er cheye onek valo.,bn-en,True,negative,10,competitor,412,84
+1123,Twitter,2026-06-23 08:06:00,Sadia63,"No more standing in line for DESCO bill payments, TakaPay just handled it 🙌",en,True,positive,72,bill_payment,355,101
+1006,Instagram,2026-06-17 10:56:00,Jony32,TakaPay দিয়ে credit card bill দেওয়া যায় কিনা কেউ বলতে পারবেন?,bn,True,neutral,59,feature_query,406,23
+1260,YouTube,2026-06-11 03:58:00,Fahim70,2500 taka TakaPay theke katlo but receiver pay nai. 30 min dhore atke ache.,bn-en,True,negative,26,failed_transaction,355,11
+1150,Facebook,2026-06-29 12:44:00,Rakib55,"Transaction fail holo tao 5000 taka kete nilo, TakaPay er kono response nai.",bn-en,True,negative,12,failed_transaction,2,1
+1113,News/Media,2026-06-16 22:39:00,Lamia83,"TakaPay app barbar crash korche, DESCO bill dite partesi na. Worst timing.",bn-en,True,negative,26,app_crash,296,56
+1118,News/Media,2026-06-13 01:46:00,Jony83,10000 taka TakaPay theke katlo but receiver pay nai. 24 ghonta dhore atke ache.,bn-en,True,positive,93,failed_transaction,475,114
+1492,Reddit,2026-06-29 09:04:00,Sumaiya89,"Instant Robi recharge on TakaPay, 5000 taka, done before I finished my tea.",en,True,negative,16,recharge,18,70
+1410,Facebook,2026-06-12 18:52:00,Jony86,1000 taka TakaPay theke katlo but receiver pay nai. sararat dhore atke ache.,bn-en,True,negative,21,failed_transaction,352,97
+1408,Reddit,2026-06-29 11:14:00,Nafisa36,"TakaPay e DPDC bill dilam ar 2000 taka cashback pelam, darun offer!",bn-en,True,positive,73,cashback_offer,190,57
+1355,Instagram,2026-06-06 18:37:00,Imran9,"amar friend কে 500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,90,send_money,247,55
+1541,TikTok,2026-06-12 15:33:00,Tuhin25,colleague bollo NgoodPay er customer care TakaPay er cheye onek valo.,bn-en,True,negative,11,competitor,35,13
+1513,Reddit,2026-06-05 21:03:00,Imran81,আমার একাউন্ট থেকে 2000 টাকা কেটে নিয়েছে কিন্তু Grameenphone রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,12,failed_transaction,270,82
+1285,Facebook,2026-06-09 12:39:00,Rifat65,TakaPay দিয়ে DESCO bill দেওয়া যায় কিনা কেউ বলতে পারবেন?,bn,True,neutral,51,feature_query,415,107
+1328,YouTube,2026-06-30 01:33:00,Fahim74,"amar friend কে 5000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,84,send_money,240,40
+1561,Twitter,2026-06-27 21:23:00,Zubair81,TakaPay agent kothay pabo Khulna te? Cash out korte hobe.,bn-en,True,neutral,45,agent_network,87,57
+1610,Facebook,2026-06-22 22:58:00,Hasan98,"TakaPay e credit card bill dilam ar 300 taka cashback pelam, darun offer!",bn-en,True,negative,10,cashback_offer,224,109
+1546,Reddit,2026-06-28 13:09:00,Rima85,"Instant Airtel recharge on TakaPay, 1500 taka, done before I finished my tea.",en,True,positive,84,recharge,497,55
+1136,Reddit,2026-06-12 12:56:00,Nabil87,"Ei Motijheel er biryani ta must try, khub valo.",bn-en,True,neutral,53,off_topic,95,61
+1164,News/Media,2026-06-18 21:23:00,Farhana58,"Been recharging my Grameenphone number on TakaPay for two years, never failed once.",en,True,positive,93,recharge,435,20
+1381,News/Media,2026-06-08 19:06:00,Nabil20,"amar friend কে টাকা পাঠিয়েছি 30 min আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,25,failed_transaction,480,34
+1089,TikTok,2026-06-24 02:08:00,Priya30,"TakaPay app barbar crash korche, tuition fee dite partesi na. Worst timing.",bn-en,True,negative,14,app_crash,332,103
+1335,Instagram,2026-06-06 06:58:00,Sumaiya33,10000 taka TakaPay theke katlo but receiver pay nai. sararat dhore atke ache.,bn-en,True,negative,26,failed_transaction,198,78
+1022,Facebook,2026-06-12 21:12:00,Priya47,"Transaction fail holo tao 1500 taka kete nilo, TakaPay er kono response nai.",bn-en,True,negative,26,failed_transaction,465,21
+1576,Instagram,2026-06-02 07:35:00,Sabbir42,"amar bon কে টাকা পাঠিয়েছি 2 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,21,failed_transaction,125,61
+1214,Facebook,2026-06-30 04:02:00,Hasan90,TakaPay agent kothay pabo Mirpur 10 te? Cash out korte hobe.,bn-en,True,neutral,59,agent_network,153,17
+1368,Facebook,2026-06-18 03:23:00,Mitu42,Farmgate e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,46,agent_network,349,51
+1551,Facebook,2026-06-14 03:53:00,Jony58,"Ajke Farmgate te prochur bristi, office jete 30 min deri hoye gelo.",bn-en,True,neutral,53,off_topic,310,113
+1313,YouTube,2026-06-08 10:29:00,Rifat9,Motijheel e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,54,agent_network,307,58
+1283,Facebook,2026-06-22 19:01:00,Tuhin14,"bhai কে 800 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,negative,20,send_money,388,112
+1255,Facebook,2026-06-17 15:28:00,Prova44,"Instant Airtel recharge on TakaPay, 5000 taka, done before I finished my tea.",en,True,positive,94,recharge,102,58
+1280,Facebook,2026-06-07 07:04:00,Rakib15,TakaPay দিয়ে gas bill দেওয়া যায় কিনা কেউ বলতে পারবেন?,bn,True,neutral,58,feature_query,109,93
+1493,Reddit,2026-06-16 03:40:00,Rakib90,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Sylhet eo kaj kore.",bn-en,True,negative,30,competitor,180,52
+1603,Facebook,2026-06-27 20:21:00,Tuhin58,"Airtel recharge NgoodPay diye korle 5000 e extra bonus, TakaPay e nai.",bn-en,True,negative,6,competitor,45,106
+1615,News/Media,2026-06-20 13:42:00,Jony34,"TakaPay diye colleague ke 10000 taka pathalam, 1 week hoye gelo ekhono pending!",bn-en,True,negative,22,failed_transaction,96,98
+1205,Twitter,2026-06-17 01:28:00,Sabbir93,"Traffic ajke Motijheel e insane, 2 ghonta laglo pouchte.",bn-en,True,neutral,50,off_topic,207,48
+1434,Instagram,2026-06-08 23:57:00,Mitu35,"ma কে 10000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,72,send_money,189,94
+1206,News/Media,2026-06-05 03:54:00,Rasel35,TakaPay agent kothay pabo Motijheel te? Cash out korte hobe.,bn-en,True,neutral,48,agent_network,376,98
+1268,Twitter,2026-06-18 05:59:00,Rima12,"Banani e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,18,competitor,116,83
+1025,Facebook,2026-06-22 19:42:00,Prova84,"TakaPay app barbar crash korche, DPDC bill dite partesi na. Worst timing.",bn-en,True,negative,25,app_crash,176,102
+1028,Twitter,2026-06-08 02:17:00,Rasel71,"TakaPay OTP ashteci na, 2 din dhore login e atke achi. Fix koro please.",bn-en,True,negative,27,login_otp,67,2
+1452,Facebook,2026-06-14 03:21:00,Sadia33,"baba কে টাকা পাঠিয়েছি 2 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,26,failed_transaction,66,65
+1579,Facebook,2026-06-03 04:53:00,Imran99,"landlord কে 1500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,88,send_money,281,96
+1272,Facebook,2026-06-03 14:14:00,Sakib88,আমার একাউন্ট থেকে 5000 টাকা কেটে নিয়েছে কিন্তু Airtel রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,17,failed_transaction,60,71
+1228,Facebook,2026-06-12 00:49:00,Arif46,"Ajke Gulshan 1 te prochur bristi, office jete 2 ghonta deri hoye gelo.",bn-en,True,positive,48,off_topic,98,88
+1414,TikTok,2026-06-12 05:40:00,Nusrat26,Why is TakaPay charging 20 taka to cash out 500? This is robbery.,en,True,negative,13,charges_fees,358,67
+1221,Facebook,2026-06-03 17:32:00,Nafisa87,আমার একাউন্ট থেকে 2500 টাকা কেটে নিয়েছে কিন্তু Teletalk রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,25,failed_transaction,169,77
+1178,Instagram,2026-06-24 19:09:00,Mitu90,"TakaPay diye bhai ke 1000 taka pathalam, 4 din hoye gelo ekhono pending!",bn-en,True,negative,6,failed_transaction,227,13
+1637,TikTok,2026-06-26 16:08:00,Shuvo63,আমার একাউন্ট থেকে 2500 টাকা কেটে নিয়েছে কিন্তু Grameenphone রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,9,failed_transaction,395,114
+1424,TikTok,2026-06-18 08:30:00,Arif18,"Robi recharge NgoodPay diye korle 10000 e extra bonus, TakaPay e nai.",bn-en,True,negative,16,competitor,65,113
+1539,YouTube,2026-06-22 20:54:00,Rasel74,"ma কে 2500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,76,send_money,45,13
+1187,Twitter,2026-06-07 09:16:00,Anika26,"No more standing in line for credit card bill payments, TakaPay just handled it 🙌",en,True,negative,27,bill_payment,315,78
+1193,Reddit,2026-06-23 03:37:00,Rima57,"colleague কে টাকা পাঠিয়েছি 30 min আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,12,failed_transaction,392,79
+1623,Reddit,2026-06-07 22:55:00,Rifat59,"TakaPay diye amar friend ke 800 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,positive,75,failed_transaction,226,51
+1005,Facebook,2026-06-25 22:16:00,Zubair9,Does TakaPay support international remittance yet? Anyone tried?,en,True,neutral,56,feature_query,288,7
+1608,YouTube,2026-06-05 03:25:00,Rifat26,5000 taka TakaPay theke katlo but receiver pay nai. 4 din dhore atke ache.,bn-en,True,negative,30,failed_transaction,195,61
+1614,TikTok,2026-06-10 17:00:00,Tanvir22,"TakaPay e DPDC bill dilam ar 1000 taka cashback pelam, darun offer!",bn-en,True,positive,89,cashback_offer,36,70
+1339,Facebook,2026-06-21 06:38:00,Priya80,"NgoodPay notun 800 taka cashback offer diyeche, keu try koreche?",bn-en,True,negative,17,competitor,348,115
+1210,Facebook,2026-06-02 16:33:00,Oishi41,"Ajke Rajshahi te prochur bristi, office jete 2 ghonta deri hoye gelo.",bn-en,True,neutral,52,off_topic,107,99
+1473,Twitter,2026-06-04 23:30:00,Hasan37,500 taka TakaPay theke katlo but receiver pay nai. sararat dhore atke ache.,bn-en,True,negative,24,failed_transaction,259,45
+1520,Instagram,2026-06-16 16:06:00,Sadia14,Why is TakaPay charging 20 taka to cash out 300? This is robbery.,en,True,positive,83,charges_fees,293,11
+1475,TikTok,2026-06-16 22:21:00,Tania8,Can I pay my internet bill with TakaPay or only send money?,en,True,neutral,58,feature_query,39,36
+1639,Reddit,2026-06-25 02:57:00,Tuhin20,"colleague কে 1500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,89,send_money,466,60
+1091,Twitter,2026-06-16 11:23:00,Imran6,TakaPay just announced a new student account. Details on their page.,en,True,neutral,46,product_news,104,32
+1407,Facebook,2026-06-05 01:12:00,Fahim29,2500 taka TakaPay theke katlo but receiver pay nai. 1 week dhore atke ache.,bn-en,True,negative,28,failed_transaction,158,48
+1417,Facebook,2026-06-25 14:43:00,Nusrat39,"Instant Banglalink recharge on TakaPay, 500 taka, done before I finished my tea.",en,True,positive,85,recharge,477,80
+1604,Facebook,2026-06-03 15:42:00,Tanvir40,"Ajke Chittagong te prochur bristi, office jete 2 ghonta deri hoye gelo.",bn-en,True,neutral,49,off_topic,164,45
+1133,Twitter,2026-06-27 09:42:00,Arif14,"TakaPay diye bhai ke 2500 taka pathalam, 24 ghonta hoye gelo ekhono pending!",bn-en,True,negative,26,failed_transaction,114,38
+1149,Facebook,2026-06-01 15:26:00,Anika50,"TakaPay diye baba ke 2500 taka pathalam, 24 ghonta hoye gelo ekhono pending!",bn-en,True,negative,20,failed_transaction,304,75
+1611,News/Media,2026-06-12 12:09:00,Oishi22,"Instant Airtel recharge on TakaPay, 500 taka, done before I finished my tea.",en,True,positive,81,recharge,369,67
+1160,Instagram,2026-06-04 17:16:00,Imran41,"baba কে 500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,83,send_money,305,3
+1567,Facebook,2026-06-28 11:47:00,Anika61,"TakaPay e DPDC bill dilam ar 500 taka cashback pelam, darun offer!",bn-en,True,positive,89,cashback_offer,87,90
+1374,Facebook,2026-06-09 07:50:00,Nafisa74,TakaPay দিয়ে internet bill দেওয়া যায় কিনা কেউ বলতে পারবেন?,bn,True,neutral,49,feature_query,430,24
+1612,Facebook,2026-06-18 06:59:00,Shuvo81,"TakaPay diye ma ke 2500 taka pathalam, 24 ghonta hoye gelo ekhono pending!",bn-en,True,negative,7,failed_transaction,102,11
+1294,YouTube,2026-06-12 23:19:00,Farhana6,"TakaPay e electricity bill dilam ar 500 taka cashback pelam, darun offer!",bn-en,True,positive,77,cashback_offer,73,61
+1042,Reddit,2026-06-13 04:34:00,Lamia17,"NgoodPay er cash out charge 2000 e onek kom, tai TakaPay chere switch korlam.",bn-en,True,negative,23,competitor,22,67
+1098,Facebook,2026-06-30 03:24:00,Oishi29,"bhai কে 2500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,74,send_money,317,51
+1081,Reddit,2026-06-02 20:24:00,Rima5,"TakaPay helpline e 60 min wait korlam, keu dhorlo na.",bn-en,True,negative,13,customer_care,237,8
+1628,News/Media,2026-06-06 19:10:00,Tanvir13,"TakaPay diye amar bon ke 10000 taka pathalam, sararat hoye gelo ekhono pending!",bn-en,True,negative,30,failed_transaction,28,78
+1168,Facebook,2026-06-29 14:20:00,Tanvir58,"NgoodPay er bill pay UI ta TakaPay theke clean, electricity bill dite easy laglo.",bn-en,True,negative,18,competitor,497,43
+1563,Twitter,2026-06-30 17:07:00,Rasel4,300 taka TakaPay theke katlo but receiver pay nai. 30 min dhore atke ache.,bn-en,True,negative,23,failed_transaction,488,43
+1496,News/Media,2026-06-05 06:49:00,Nafisa20,"ma কে টাকা পাঠিয়েছি sararat আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,13,failed_transaction,211,120
+1188,Facebook,2026-06-19 16:17:00,Tuhin71,"Robi recharge NgoodPay diye korle 2500 e extra bonus, TakaPay e nai.",bn-en,True,negative,9,competitor,299,15
+1296,Reddit,2026-06-02 08:51:00,Mitu84,Why is TakaPay charging 18 taka to cash out 800? This is robbery.,en,True,negative,15,charges_fees,99,113
+1464,Reddit,2026-06-24 18:18:00,Farhana2,Why is TakaPay charging 15 taka to cash out 10000? This is robbery.,en,True,negative,27,charges_fees,209,101
+1060,Twitter,2026-06-18 02:48:00,Sumaiya16,"colleague কে 800 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,negative,19,send_money,430,42
+1101,TikTok,2026-06-20 09:01:00,Rima85,"colleague কে টাকা পাঠিয়েছি 24 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,15,failed_transaction,188,57
+1518,TikTok,2026-06-28 07:10:00,Nusrat20,"Ajke Mohakhali te prochur bristi, office jete 1 ghonta deri hoye gelo.",bn-en,True,neutral,58,off_topic,5,73
+1510,News/Media,2026-06-21 17:45:00,Nusrat39,"landlord কে টাকা পাঠিয়েছি 2 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,25,failed_transaction,408,114
+1171,Facebook,2026-06-18 18:08:00,Jony54,"Traffic ajke Bashundhara e insane, 2 ghonta laglo pouchte.",bn-en,True,neutral,52,off_topic,458,20
+1184,Twitter,2026-06-30 11:15:00,Farhana16,Ajke TakaPay cashback e 500 taka fire pelam. Regular user hoye gelam 😍,bn-en,True,positive,81,cashback_offer,30,76
+1498,Instagram,2026-06-27 17:49:00,Tania93,"TakaPay diye landlord ke 300 taka pathalam, 2 din hoye gelo ekhono pending!",bn-en,True,negative,11,failed_transaction,254,47
+1181,Twitter,2026-06-19 05:40:00,Mitu43,Can I pay my DESCO bill with TakaPay or only send money?,en,True,neutral,56,feature_query,366,55
+1195,Facebook,2026-06-19 17:22:00,Rakib1,"Transaction fail holo tao 500 taka kete nilo, TakaPay er kono response nai.",bn-en,True,negative,17,failed_transaction,157,90
+1322,Reddit,2026-06-22 12:23:00,Mitu24,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Dhanmondi 27 eo kaj kore.",bn-en,True,negative,14,competitor,309,103
+1220,Instagram,2026-06-26 15:21:00,Anika45,"Bashundhara e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,6,competitor,290,25
+1652,YouTube,2026-06-22 16:55:00,Sabbir20,আমার একাউন্ট থেকে 5000 টাকা কেটে নিয়েছে কিন্তু Grameenphone রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,27,failed_transaction,278,85
+1625,Reddit,2026-06-23 03:21:00,Zubair62,"TakaPay diye amar friend ke 1500 taka pathalam, 4 din hoye gelo ekhono pending!",bn-en,True,negative,12,failed_transaction,289,62
+1204,Facebook,2026-06-05 05:10:00,Sabbir35,Ajke TakaPay cashback e 800 taka fire pelam. Regular user hoye gelam 😍,bn-en,True,positive,79,cashback_offer,278,106
+1392,TikTok,2026-06-06 19:26:00,Sabbir18,"bhai কে টাকা পাঠিয়েছি 30 min আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,9,failed_transaction,107,63
+1312,YouTube,2026-06-26 01:00:00,Fahim27,Gulshan 1 e TakaPay er kono agent point ache keu jane?,bn-en,True,neutral,48,agent_network,324,31
+1560,News/Media,2026-06-24 10:09:00,Mitu65,"amar bon কে 2000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,91,send_money,180,58
+1435,Facebook,2026-06-09 00:03:00,Oishi3,2000 taka TakaPay theke katlo but receiver pay nai. sararat dhore atke ache.,bn-en,True,negative,15,failed_transaction,301,108
+1253,Twitter,2026-06-09 15:48:00,Priya1,"Traffic ajke Mirpur 10 e insane, 2 ghonta laglo pouchte.",bn-en,True,neutral,55,off_topic,95,68
+1412,News/Media,2026-06-16 15:18:00,Arif85,"amar friend কে টাকা পাঠিয়েছি 2 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,positive,81,failed_transaction,486,93
+1512,Twitter,2026-06-19 14:47:00,Zubair17,"colleague কে টাকা পাঠিয়েছি 3 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,22,failed_transaction,187,9
+1455,Instagram,2026-06-17 12:55:00,Anika49,আমার একাউন্ট থেকে 800 টাকা কেটে নিয়েছে কিন্তু Robi রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,15,failed_transaction,34,97
+1347,Reddit,2026-06-25 06:07:00,Lamia57,"TakaPay e gas bill dilam ar 1500 taka cashback pelam, darun offer!",bn-en,True,positive,74,cashback_offer,108,12
+1124,YouTube,2026-06-10 18:31:00,Zubair30,"Notun phone kinbo vabtesi, keu Banglalink er offer jano?",bn-en,True,positive,50,off_topic,255,21
+1398,News/Media,2026-06-18 13:16:00,Hasan20,TakaPay agent kothay pabo Mohakhali te? Cash out korte hobe.,bn-en,True,neutral,59,agent_network,411,57
+1156,News/Media,2026-06-23 18:06:00,Hasan69,"Robi recharge NgoodPay diye korle 800 e extra bonus, TakaPay e nai.",bn-en,True,negative,14,competitor,43,69
+1521,Reddit,2026-06-30 01:46:00,Sadia6,"TakaPay diye amar friend ke 1000 taka pathalam, 4 din hoye gelo ekhono pending!",bn-en,True,negative,19,failed_transaction,423,82
+1225,News/Media,2026-06-24 02:02:00,Zubair97,"NgoodPay er bill pay UI ta TakaPay theke clean, gas bill dite easy laglo.",bn-en,True,negative,22,competitor,485,14
+1528,News/Media,2026-06-02 11:16:00,Rakib32,"Ei Banani er biryani ta must try, khub valo.",bn-en,True,positive,53,off_topic,268,76
+1203,Twitter,2026-06-26 04:56:00,Mitu50,"TakaPay OTP ashteci na, 3 din dhore login e atke achi. Fix koro please.",bn-en,True,negative,19,login_otp,97,59
+1037,Twitter,2026-06-15 11:54:00,Tanvir93,"amar friend কে 2500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,78,send_money,187,2
+1632,Reddit,2026-06-12 01:49:00,Lamia91,"TakaPay diye colleague ke 1000 taka pathalam, 24 ghonta hoye gelo ekhono pending!",bn-en,True,negative,21,failed_transaction,286,17
+1378,Facebook,2026-06-29 03:48:00,Oishi66,"ma কে টাকা পাঠিয়েছি 4 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,19,failed_transaction,383,56
+1370,YouTube,2026-06-13 16:27:00,Jony95,"TakaPay diye bhai ke 500 taka pathalam, 2 ghonta hoye gelo ekhono pending!",bn-en,True,negative,11,failed_transaction,463,11
+1501,Instagram,2026-06-15 06:36:00,Shuvo73,"TakaPay diye baba ke 5000 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,negative,19,failed_transaction,248,86
+1045,Facebook,2026-06-06 21:47:00,Rakib10,"TakaPay OTP ashteci na, 24 ghonta dhore login e atke achi. Fix koro please.",bn-en,True,positive,83,login_otp,320,94
+1316,Facebook,2026-06-29 09:37:00,Nusrat90,800 taka TakaPay theke katlo but receiver pay nai. 4 din dhore atke ache.,bn-en,True,negative,8,failed_transaction,498,33
+1470,Facebook,2026-06-25 03:27:00,Zubair86,"Ajke Rajshahi te prochur bristi, office jete 30 min deri hoye gelo.",bn-en,True,positive,60,off_topic,77,21
+1584,Facebook,2026-06-19 17:18:00,Priya77,"Ajke Banani te prochur bristi, office jete 1 ghonta deri hoye gelo.",bn-en,True,neutral,52,off_topic,100,113
+1350,Twitter,2026-06-26 14:58:00,Tuhin88,Ajke TakaPay cashback e 5000 taka fire pelam. Regular user hoye gelam 😍,bn-en,True,positive,92,cashback_offer,356,46
+1627,YouTube,2026-06-05 01:59:00,Jony15,"Robi recharge NgoodPay diye korle 5000 e extra bonus, TakaPay e nai.",bn-en,True,negative,27,competitor,179,12
+1021,Facebook,2026-06-10 08:08:00,Priya47,"TakaPay app er notun update ta onek clean, navigation ekdom smooth hoyeche.",bn-en,True,positive,88,app_experience,75,88
+1185,News/Media,2026-06-14 01:39:00,Rifat59,"TakaPay app barbar crash korche, electricity bill dite partesi na. Worst timing.",bn-en,True,negative,29,app_crash,312,88
+1076,TikTok,2026-06-02 01:48:00,Lamia19,"NgoodPay notun 2500 taka cashback offer diyeche, keu try koreche?",bn-en,True,negative,7,competitor,212,6
+1317,Instagram,2026-06-28 23:26:00,Sabbir24,"TakaPay e internet bill dilam ar 1000 taka cashback pelam, darun offer!",bn-en,True,positive,92,cashback_offer,104,39
+1616,Facebook,2026-06-11 05:48:00,Zubair59,"Ajke Motijheel te prochur bristi, office jete 2 ghonta deri hoye gelo.",bn-en,True,neutral,59,off_topic,114,27
+1387,Facebook,2026-06-09 09:27:00,Shuvo83,"TakaPay OTP ashteci na, 4 din dhore login e atke achi. Fix koro please.",bn-en,True,negative,27,login_otp,332,67
+1533,Facebook,2026-06-28 10:26:00,Shuvo15,"Teletalk recharge NgoodPay diye korle 1500 e extra bonus, TakaPay e nai.",bn-en,True,negative,19,competitor,365,118
+1231,Facebook,2026-06-13 09:49:00,Rima35,"TakaPay diye landlord ke 300 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,negative,29,failed_transaction,32,64
+1658,Instagram,2026-06-15 07:31:00,Nusrat82,"Transaction fail holo tao 2000 taka kete nilo, TakaPay er kono response nai.",bn-en,True,negative,13,failed_transaction,81,0
+1261,Twitter,2026-06-19 06:24:00,Sadia5,"TakaPay saved me a trip today, cleared my gas bill from bed. Love it.",en,True,positive,85,bill_payment,424,45
+1416,TikTok,2026-06-10 01:22:00,Rasel65,"Ei Mirpur 10 er biryani ta must try, khub valo.",bn-en,True,positive,60,off_topic,481,15
+1352,TikTok,2026-06-02 17:05:00,Lamia24,"TakaPay diye colleague ke 300 taka pathalam, 2 din hoye gelo ekhono pending!",bn-en,True,negative,22,failed_transaction,101,8
+1634,Reddit,2026-06-16 08:57:00,Fahim16,"TakaPay diye landlord ke 300 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,9,failed_transaction,221,108
+1311,Reddit,2026-06-29 00:49:00,Nabil83,"NgoodPay er cash out charge 10000 e onek kom, tai TakaPay chere switch korlam.",bn-en,True,negative,10,competitor,39,60
+1128,YouTube,2026-06-29 02:17:00,Imran93,"TakaPay OTP ashteci na, 1 week dhore login e atke achi. Fix koro please.",bn-en,True,negative,14,login_otp,79,31
+1559,Instagram,2026-06-01 15:01:00,Prova25,আমার একাউন্ট থেকে 300 টাকা কেটে নিয়েছে কিন্তু Robi রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,19,failed_transaction,335,8
+1139,Facebook,2026-06-25 23:06:00,Oishi82,Why is TakaPay charging 23 taka to cash out 10000? This is robbery.,en,True,negative,11,charges_fees,429,38
+1591,Twitter,2026-06-10 23:28:00,Maliha58,"TakaPay diye amar bon ke 5000 taka pathalam, 30 min hoye gelo ekhono pending!",bn-en,True,negative,17,failed_transaction,13,36
+1471,Facebook,2026-06-06 20:50:00,Sabbir10,Why is TakaPay charging 20 taka to cash out 2000? This is robbery.,en,True,negative,23,charges_fees,17,89
+1484,YouTube,2026-06-05 11:43:00,Maliha1,"TakaPay e gas bill dilam ar 500 taka cashback pelam, darun offer!",bn-en,True,positive,84,cashback_offer,278,36
+1655,Facebook,2026-06-23 07:08:00,Shuvo59,"TakaPay diye baba ke 5000 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,12,failed_transaction,300,74
+1345,Instagram,2026-06-02 03:55:00,Tanvir11,"Teletalk recharge NgoodPay diye korle 300 e extra bonus, TakaPay e nai.",bn-en,True,negative,20,competitor,435,101
+1209,YouTube,2026-06-08 02:36:00,Rima95,আমার একাউন্ট থেকে 2500 টাকা কেটে নিয়েছে কিন্তু Robi রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,30,failed_transaction,20,70
+1598,Facebook,2026-06-09 04:17:00,Jony67,"TakaPay diye ma ke 10000 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,12,failed_transaction,459,56
+1166,Reddit,2026-06-06 15:35:00,Hasan62,"Traffic ajke Gulshan 1 e insane, 2 ghonta laglo pouchte.",bn-en,True,positive,53,off_topic,194,21
+1249,Twitter,2026-06-04 06:38:00,Fahim70,10000 taka TakaPay theke katlo but receiver pay nai. 4 din dhore atke ache.,bn-en,True,negative,25,failed_transaction,340,28
+1556,Facebook,2026-06-29 20:32:00,Rifat71,"Ei Uttara er biryani ta must try, khub valo.",bn-en,True,positive,48,off_topic,404,24
+1651,Facebook,2026-06-23 10:58:00,Mehedi56,"TakaPay OTP ashteci na, 2 ghonta dhore login e atke achi. Fix koro please.",bn-en,True,negative,13,login_otp,19,59
+1440,Facebook,2026-06-19 13:57:00,Nabil76,আমার একাউন্ট থেকে 800 টাকা কেটে নিয়েছে কিন্তু Airtel রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,16,failed_transaction,151,54
+1015,Facebook,2026-06-12 22:59:00,Jony1,Paid my DPDC bill on TakaPay in under a minute. Genuinely smooth experience.,en,True,positive,90,bill_payment,74,53
+1502,TikTok,2026-06-17 10:57:00,Nafisa52,"Teletalk recharge NgoodPay diye korle 500 e extra bonus, TakaPay e nai.",bn-en,True,negative,24,competitor,368,5
+1259,TikTok,2026-06-30 23:40:00,Rifat33,"TakaPay e electricity bill dilam ar 300 taka cashback pelam, darun offer!",bn-en,True,positive,85,cashback_offer,361,115
+1044,News/Media,2026-06-26 01:53:00,Sabbir66,300 taka TakaPay theke katlo but receiver pay nai. 2 ghonta dhore atke ache.,bn-en,True,negative,6,failed_transaction,243,31
+1229,Facebook,2026-06-04 08:33:00,Oishi34,"bhai কে টাকা পাঠিয়েছি 2 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,21,failed_transaction,94,19
+1040,News/Media,2026-06-26 23:14:00,Shuvo90,"landlord কে 800 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,89,send_money,167,11
+1061,YouTube,2026-06-17 22:33:00,Tanvir51,"TakaPay saved me a trip today, cleared my DESCO bill from bed. Love it.",en,True,positive,81,bill_payment,199,111
+1242,Instagram,2026-06-13 03:56:00,Tuhin18,"Ei Sylhet er biryani ta must try, khub valo.",bn-en,True,neutral,50,off_topic,421,38
+1277,Facebook,2026-06-17 08:54:00,Rakib90,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Gulshan 1 eo kaj kore.",bn-en,True,negative,27,competitor,264,9
+1373,Reddit,2026-06-09 14:32:00,Maliha13,"NgoodPay er bill pay UI ta TakaPay theke clean, tuition fee dite easy laglo.",bn-en,True,negative,27,competitor,79,52
+1530,News/Media,2026-06-20 20:37:00,Nabil95,"Instant Robi recharge on TakaPay, 300 taka, done before I finished my tea.",en,True,positive,77,recharge,223,42
+1332,TikTok,2026-06-13 09:41:00,Rifat55,"NgoodPay app ta ekhon TakaPay theke faster mone hoche, Farmgate eo kaj kore.",bn-en,True,negative,20,competitor,473,65
+1240,News/Media,2026-06-02 07:43:00,Hasan91,"Instant Robi recharge on TakaPay, 800 taka, done before I finished my tea.",en,True,positive,77,recharge,124,56
+1134,Facebook,2026-06-04 03:15:00,Oishi82,"Traffic ajke Sylhet e insane, 2 ghonta laglo pouchte.",bn-en,True,neutral,50,off_topic,98,60
+1100,News/Media,2026-06-02 17:38:00,Anika42,"TakaPay saved me a trip today, cleared my WASA bill from bed. Love it.",en,True,positive,73,bill_payment,60,49
+1351,TikTok,2026-06-27 16:40:00,Tanvir54,আমার একাউন্ট থেকে 1500 টাকা কেটে নিয়েছে কিন্তু Banglalink রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,28,failed_transaction,5,26
+1330,Reddit,2026-06-02 01:48:00,Zubair17,"Instant Grameenphone recharge on TakaPay, 300 taka, done before I finished my tea.",en,True,positive,86,recharge,219,11
+1509,Reddit,2026-06-01 22:43:00,Farhana55,2500 taka TakaPay theke katlo but receiver pay nai. 24 ghonta dhore atke ache.,bn-en,True,negative,12,failed_transaction,473,77
+1346,Facebook,2026-06-23 18:17:00,Arif44,আমার একাউন্ট থেকে 800 টাকা কেটে নিয়েছে কিন্তু Grameenphone রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,26,failed_transaction,84,20
+1194,Facebook,2026-06-06 00:42:00,Fahim38,"TakaPay app barbar crash korche, internet bill dite partesi na. Worst timing.",bn-en,True,negative,22,app_crash,353,43
+1630,TikTok,2026-06-26 02:08:00,Fahim54,1000 taka TakaPay theke katlo but receiver pay nai. 4 din dhore atke ache.,bn-en,True,negative,7,failed_transaction,345,53
+1130,YouTube,2026-06-29 14:14:00,Zubair13,Ajke TakaPay cashback e 2500 taka fire pelam. Regular user hoye gelam 😍,bn-en,True,positive,82,cashback_offer,458,53
+1289,Facebook,2026-06-25 05:06:00,Farhana14,"NgoodPay er cash out charge 1000 e onek kom, tai TakaPay chere switch korlam.",bn-en,True,negative,16,competitor,18,105
+1453,YouTube,2026-06-30 02:59:00,Fahim74,"TakaPay diye ma ke 10000 taka pathalam, 4 din hoye gelo ekhono pending!",bn-en,True,negative,7,failed_transaction,250,118
+1059,Instagram,2026-06-23 02:59:00,Rima4,"Transaction fail holo tao 2000 taka kete nilo, TakaPay er kono response nai.",bn-en,True,negative,13,failed_transaction,81,0
+1319,Instagram,2026-06-04 00:51:00,Arif86,"TakaPay diye colleague ke 500 taka pathalam, 24 ghonta hoye gelo ekhono pending!",bn-en,True,negative,19,failed_transaction,262,28
+1425,Reddit,2026-06-09 18:28:00,Mitu63,"Instant Teletalk recharge on TakaPay, 500 taka, done before I finished my tea.",en,True,positive,92,recharge,278,96
+1176,Reddit,2026-06-27 05:29:00,Tuhin8,"TakaPay app barbar crash korche, credit card bill dite partesi na. Worst timing.",bn-en,True,positive,94,app_crash,149,111
+1600,Reddit,2026-06-04 13:52:00,Sadia75,"TakaPay diye baba ke 300 taka pathalam, 3 din hoye gelo ekhono pending!",bn-en,True,negative,12,failed_transaction,412,114
+1271,Twitter,2026-06-14 21:30:00,Anika91,"landlord কে টাকা পাঠিয়েছি 4 din আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,15,failed_transaction,323,87
+1420,YouTube,2026-06-29 19:24:00,Sabbir19,"baba কে 1000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,85,send_money,284,87
+1503,TikTok,2026-06-12 10:29:00,Sadia5,আমার একাউন্ট থেকে 5000 টাকা কেটে নিয়েছে কিন্তু Robi রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,15,failed_transaction,406,13
+1522,Reddit,2026-06-15 22:47:00,Rakib53,"Ei Khulna er biryani ta must try, khub valo.",bn-en,True,neutral,46,off_topic,343,86
+1647,YouTube,2026-06-04 22:17:00,Rasel41,"TakaPay diye baba ke 300 taka pathalam, 4 din hoye gelo ekhono pending!",bn-en,True,negative,21,failed_transaction,98,49
+1595,Reddit,2026-06-17 20:26:00,Rasel94,1500 taka TakaPay theke katlo but receiver pay nai. 24 ghonta dhore atke ache.,bn-en,True,negative,28,failed_transaction,219,42
+1065,Twitter,2026-06-21 11:28:00,Nabil18,"Instant Teletalk recharge on TakaPay, 1000 taka, done before I finished my tea.",en,True,positive,86,recharge,280,24
+1282,Facebook,2026-06-10 02:35:00,Oishi1,"TakaPay OTP ashteci na, 2 ghonta dhore login e atke achi. Fix koro please.",bn-en,True,negative,13,login_otp,19,59
+1163,Instagram,2026-06-23 03:45:00,Maliha9,"TakaPay er cashback gulo genuinely kaje lage, 2000 taka bachlo ei mashe.",bn-en,True,positive,94,cashback_offer,441,76
+1648,Facebook,2026-06-28 06:50:00,Oishi94,"TakaPay diye baba ke 10000 taka pathalam, 24 ghonta hoye gelo ekhono pending!",bn-en,True,negative,17,failed_transaction,37,4
+1105,TikTok,2026-06-03 23:33:00,Rifat45,"baba কে 800 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,93,send_money,312,96
+1534,TikTok,2026-06-18 19:39:00,Tania99,আমার একাউন্ট থেকে 1500 টাকা কেটে নিয়েছে কিন্তু Robi রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,30,failed_transaction,404,73
+1515,Facebook,2026-06-23 04:48:00,Imran51,আমার একাউন্ট থেকে 2000 টাকা কেটে নিয়েছে কিন্তু Teletalk রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,7,failed_transaction,460,96
+1396,Facebook,2026-06-28 13:31:00,Sakib54,"Ajke Farmgate te prochur bristi, office jete 2 ghonta deri hoye gelo.",bn-en,True,positive,54,off_topic,340,76
+1607,TikTok,2026-06-24 07:58:00,Sadia80,"Chittagong e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,25,competitor,459,83
+1274,Instagram,2026-06-01 12:49:00,Nusrat69,TakaPay দিয়ে electricity bill দেওয়া যায় কিনা কেউ বলতে পারবেন?,bn,True,neutral,53,feature_query,423,89
+1243,Facebook,2026-06-01 21:46:00,Nusrat41,"Been recharging my Teletalk number on TakaPay for two years, never failed once.",en,True,positive,85,recharge,33,112
+1224,Facebook,2026-06-11 01:40:00,Maliha33,Paid my WASA bill on TakaPay in under a minute. Genuinely smooth experience.,en,True,positive,89,bill_payment,332,12
+1321,Reddit,2026-06-20 09:04:00,Zubair44,"Instant Robi recharge on TakaPay, 1000 taka, done before I finished my tea.",en,True,positive,77,recharge,185,15
+1592,Facebook,2026-06-14 13:42:00,Hasan78,"NgoodPay er cash out charge 5000 e onek kom, tai TakaPay chere switch korlam.",bn-en,True,negative,18,competitor,77,120
+1594,Facebook,2026-06-16 20:10:00,Prova8,"baba কে 2500 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,74,send_money,5,22
+1460,News/Media,2026-06-07 15:32:00,Maliha34,800 taka TakaPay theke katlo but receiver pay nai. 2 ghonta dhore atke ache.,bn-en,True,negative,26,failed_transaction,257,53
+1400,Facebook,2026-06-27 09:57:00,Sakib16,"TakaPay diye landlord ke 800 taka pathalam, 4 din hoye gelo ekhono pending!",bn-en,True,negative,23,failed_transaction,436,102
+1344,Instagram,2026-06-06 09:32:00,Nusrat96,"landlord কে টাকা পাঠিয়েছি sararat আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,positive,84,failed_transaction,428,18
+1265,News/Media,2026-06-25 14:57:00,Sadia42,"NgoodPay notun 5000 taka cashback offer diyeche, keu try koreche?",bn-en,True,negative,14,competitor,239,31
+1573,YouTube,2026-06-13 23:21:00,Rasel52,"Instant Robi recharge on TakaPay, 2500 taka, done before I finished my tea.",en,True,positive,73,recharge,392,1
+1190,Instagram,2026-06-18 07:47:00,Tania39,"colleague কে টাকা পাঠিয়েছি sararat আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,negative,6,failed_transaction,94,68
+1538,Instagram,2026-06-28 06:58:00,Mitu40,আমার একাউন্ট থেকে 5000 টাকা কেটে নিয়েছে কিন্তু Banglalink রিচার্জ হয়নি। TakaPay এর কোনো হেল্প নেই।,bn,True,negative,21,failed_transaction,183,63
+1122,Facebook,2026-06-27 03:33:00,Rifat37,"Transaction fail holo tao 1000 taka kete nilo, TakaPay er kono response nai.",bn-en,True,negative,28,failed_transaction,87,55
+1507,Facebook,2026-06-06 15:59:00,Rasel77,"TakaPay diye baba ke 1000 taka pathalam, 2 din hoye gelo ekhono pending!",bn-en,True,negative,11,failed_transaction,379,14
+1306,Reddit,2026-06-05 17:42:00,Rakib38,"Dhanmondi 27 e NgoodPay agent beshi, TakaPay agent khuje pai na.",bn-en,True,negative,7,competitor,36,36
+1067,Reddit,2026-06-13 07:10:00,Sumaiya97,"landlord কে 10000 টাকা পাঠালাম TakaPay দিয়ে, সাথে সাথে চলে গেল।",bn,True,positive,78,send_money,31,63
+1120,Facebook,2026-06-29 17:48:00,Fahim37,Why is TakaPay charging 15 taka to cash out 300? This is robbery.,en,True,positive,73,charges_fees,244,12
+1226,Facebook,2026-06-07 04:06:00,Nabil12,"TakaPay e WASA bill dilam ar 5000 taka cashback pelam, darun offer!",bn-en,True,positive,81,cashback_offer,318,111
+1617,Twitter,2026-06-14 10:09:00,Lamia5,"baba কে টাকা পাঠিয়েছি 2 ghonta আগে, এখনো পৌঁছায়নি। TakaPay কী করছে?",bn,True,positive,81,failed_transaction,336,35
+1479,Twitter,2026-06-14 02:29:00,Jony64,"TakaPay diye ma ke 2000 taka pathalam, 2 ghonta hoye gelo ekhono pending!",bn-en,True,negative,23,failed_transaction,34,108
+1208,Twitter,2026-06-29 14:50:00,Sadia24,"NgoodPay er bill pay UI ta TakaPay theke clean, WASA bill dite easy laglo.",bn-en,True,negative,18,competitor,149,14
