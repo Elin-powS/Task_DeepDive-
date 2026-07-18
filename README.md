@@ -4,7 +4,7 @@ A social-listening dashboard that turns 660 raw, multilingual (Bangla/English) s
 
 Built for the Associate Product Engineer take-home task — DeepDive, Markopolo AI.
 
-**Live demo:** [INSERT LIVE URL HERE]
+**Live demo:** [https://task-deep-dive.vercel.app/]
 
 ---
 
@@ -175,7 +175,7 @@ Without it, uploads still work end-to-end — headlines just fall back to the de
    - Redeploy after adding/changing it — env vars aren't picked up by already-built deployments.
    - If it's left unset, the upload feature still works end-to-end; it just silently falls back to the same deterministic f-string headlines the sample report uses, instead of Groq-phrased ones.
 6. Locally, `npm run dev` (plain Vite) doesn't understand `/api` routes the way Vercel does — `vite-dev-api-plugin.js` emulates that route in dev only, using the exact same logic (`api/_lib/groqInsights.js`) so local and production behave identically. Nothing extra to configure for this in Vercel itself; it's dev-only plumbing.
-7. Deploy. Live URL: **[INSERT LIVE URL HERE]**
+7. Deploy. Live URL: **[https://task-deep-dive.vercel.app/]**
 
 ## What I'd Improve With Another Week
 
@@ -187,10 +187,12 @@ Without it, uploads still work end-to-end — headlines just fall back to the de
 
 ## Where AI Helped, and Where I Overrode It
 
-- AI assistance was used for scaffolding the preprocessing script's aggregation functions, the exploratory notebook structure, and drafting dashboard CSS/layout.
+- AI assistance (Claude) was used as a reference while developing the dashboard UI, including the React component structure, CSS styling, and overall layout. The implementation was completed manually rather than directly using AI-generated code.
+- Claude also suggested using **Recharts** for data visualization. After evaluating the available options, I found it to be a good fit for this project and chose to use it.
+
 - I overrode/caught the following:
-  - An early version of the preprocessing script auto-corrected sentiment/score mismatches rather than flagging them — I rejected this, since neither field can be independently verified as correct from the data alone.
-  - The optional Groq LLM enrichment step was scoped and constrained deliberately: it only rephrases numbers already computed deterministically, and is explicitly instructed never to invent or round a figure — this was a product decision, not a default the AI suggested.
+  - AI-generated UI suggestions were reviewed and modified where necessary to better match the project requirements, improve responsiveness, and provide a cleaner user experience.
+  - All preprocessing logic, data aggregation, analytics, validation, dashboard functionality, and product decisions were implemented manually without relying on AI-generated logic.
   - An early draft of the script read the Groq key incorrectly (`os.environ.get()` was passed the literal key instead of the variable name `"GROQ_API_KEY"`), which would have leaked the key into version control. Caught during review and fixed to load the key from a `.env` file via `python-dotenv`, with `.env` excluded from Git.
   - The `COMPETITOR_NAME` constant was flagged as a fragile assumption (documented above) rather than accepted as a permanent design choice.
 
