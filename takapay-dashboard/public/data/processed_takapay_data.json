@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-07-15T12:25:03.454738+00:00",
+    "generated_at": "2026-07-18T08:59:20.925934+00:00",
     "source_record_count": 660,
     "brand_relevant_record_count": 599,
     "date_range": {
       "start": "2026-06-01 01:26:00",
       "end": "2026-06-30 23:50:00"
     },
-    "summary_line": "There are 599 posts mentioning the brand, with 56.4% being negative and 35.7% being positive, primarily discussing failed_transaction on Facebook where 200 posts were found."
+    "summary_line": "There are 599 posts about the brand, with 56.4% being negative and 35.7% being positive, primarily discussing failed_transaction on Facebook where 200 posts were found."
   },
   "data_quality": {
     "total_records": 660,
@@ -916,7 +916,7 @@
     }
   },
   "insight_failed_transactions": {
-    "headline": "Failed transaction posts account for 36.7 percent of all posts and 58.3 percent of negative posts with an average sentiment score of 24.9.",
+    "headline": "Failed transaction posts account for 36.7 percent of all posts and 58.3 percent of all negative posts with an average sentiment score of 24.9.",
     "failed_transaction_post_count": 220,
     "failed_transaction_share_of_all_posts_pct": 36.7,
     "failed_transaction_share_of_negative_posts_pct": 58.3,
@@ -1115,6 +1115,6 @@
         "engagement": 539
       }
     ],
-    "headline": "NgoodPay is mentioned in 81 posts with 100.0 percent of the sentiment being negative due to fees or charges."
+    "headline": "NgoodPay is mentioned in 81 posts with 100.0% negative sentiment primarily due to fees_or_charges."
   }
 }

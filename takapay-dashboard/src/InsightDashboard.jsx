@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, createContext, useContext } from "react";
+import React, { useState, useEffect, useMemo, useRef, createContext, useContext } from "react";
 import {
   ComposedChart, Bar, Line, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, BarChart, Cell,
@@ -6,8 +6,11 @@ import {
 import {
   ChevronDown, ChevronUp, Search, TrendingDown, TrendingUp, AlertTriangle,
   Facebook, Instagram, Youtube, Twitter, MessageCircle, Newspaper, Music2,
+  UploadCloud, FileJson, FileSpreadsheet, Sparkles, RotateCcw, CheckCircle2, Loader2,
 } from "lucide-react";
-import './TakaPayDashboard.css';
+import './InsightDashboard.css';
+import { aggregateRecords } from './lib/aggregate';
+import { csvToJson } from './lib/csvToJson';
 
 /* ============================================================
    DATA CONTEXT
@@ -70,23 +73,24 @@ function daysPerWeekMap(PROCESSED) {
    ============================================================ */
 
 function Header() {
-  const { PROCESSED } = useData();
+  const { PROCESSED, brandName, mode } = useData();
   const { meta } = PROCESSED;
-  const start = meta.date_range.start.slice(0, 10);
-  const end = meta.date_range.end.slice(0, 10);
+  const start = (meta.date_range.start || "").slice(0, 10);
+  const end = (meta.date_range.end || "").slice(0, 10);
   return (
     <div className="tp-header">
-      <div className="tp-eyebrow">DeepDive · Social Listening Statement</div>
-      <h1 className="tp-title tp-display">TakaPay <span>Public Sentiment</span></h1>
+      <div className="tp-eyebrow">Insight Starts Here · Social Listening Statement</div>
+      <h1 className="tp-title tp-display">{brandName} <span>Public Sentiment</span></h1>
       <p className="tp-subtitle">
         {meta.summary_line || (
-          <>A brand-manager's read of {meta.source_record_count} social posts mentioning TakaPay across
-          seven platforms — what people are saying, where it hurts, and where the money's going.</>
+          <>A brand-manager's read of {meta.source_record_count} social posts mentioning {brandName}
+          {" "}— what people are saying, where it hurts, and where the momentum's going.</>
         )}
       </p>
       <div className="tp-period">
         <b>STATEMENT PERIOD</b>
-        {start} — {end}
+        {start && end ? `${start} — ${end}` : "—"}
+        {mode === "custom" && <div className="tp-source-tag">your uploaded data</div>}
       </div>
     </div>
   );
@@ -310,23 +314,32 @@ function PlatformGrid({ activePlatform, setActivePlatform }) {
 }
 
 function FailedTransactionInsight({ setActiveTopic, setActiveSentiment }) {
-  const { PROCESSED } = useData();
+  const { PROCESSED, brandName, mode } = useData();
   const ft = PROCESSED.insight_failed_transactions;
+  if (!ft) return null;
   const platformData = Object.entries(ft.platform_breakdown).map(([platform, count]) => ({ platform, count }));
+  const driverLabel = ft.driver_topic ? ft.driver_topic.replace(/_/g, " ") : "failed transaction";
+  const targetTopic = ft.driver_topic || "failed_transaction";
   return (
     <div className="tp-section">
       <div className="tp-section-head">
         <div>
           <div className="tp-section-label">Our Product Call</div>
-          <div className="tp-section-title tp-display">Failed transactions are the #1 problem</div>
+          <div className="tp-section-title tp-display">
+            {mode === "custom" ? <>“{driverLabel}” is the #1 driver of negativity</> : "Failed transactions are the #1 problem"}
+          </div>
         </div>
       </div>
       <div className="tp-ticket">
         <span className="tp-stamp">Priority fix</span>
         <p className="tp-headline">
-          <b>{ft.failed_transaction_share_of_negative_posts_pct}%</b> of all negative posts about TakaPay are about
-          money stuck mid-transaction — more than fees, agent access, and app bugs combined. This is the single
-          highest-leverage fix on the roadmap.
+          {mode === "custom" ? (
+            <>{ft.headline}</>
+          ) : (
+            <><b>{ft.failed_transaction_share_of_negative_posts_pct}%</b> of all negative posts about {brandName} are about
+            money stuck mid-transaction — more than fees, agent access, and app bugs combined. This is the single
+            highest-leverage fix on the roadmap.</>
+          )}
         </p>
         <div className="tp-stat-row">
           <div className="tp-stat">
@@ -359,7 +372,7 @@ function FailedTransactionInsight({ setActiveTopic, setActiveSentiment }) {
         <button
           className="tp-chip active"
           style={{ marginTop: 10 }}
-          onClick={() => { setActiveTopic("failed_transaction"); setActiveSentiment("negative"); window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" }); }}
+          onClick={() => { setActiveTopic(targetTopic); setActiveSentiment("negative"); window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" }); }}
         >
           View these posts in the feed →
         </button>
@@ -369,9 +382,10 @@ function FailedTransactionInsight({ setActiveTopic, setActiveSentiment }) {
 }
 
 function CompetitorSection() {
-  const { PROCESSED } = useData();
+  const { PROCESSED, brandName } = useData();
   const cc = PROCESSED.insight_competitor_comparison;
   const own = PROCESSED.overview;
+  if (!cc) return null;
   const reasonLabels = {
     cashback_or_bonus: "Cashback / bonus offers",
     agent_availability: "Agent availability",
@@ -383,23 +397,23 @@ function CompetitorSection() {
       <div className="tp-section-head">
         <div>
           <div className="tp-section-label">Stretch · Competitive Read</div>
-          <div className="tp-section-title tp-display">TakaPay vs {cc.competitor_name}</div>
+          <div className="tp-section-title tp-display">{brandName} vs {cc.competitor_name}</div>
         </div>
         <div className="tp-section-note">
           {cc.mention_count} posts ({cc.share_of_all_posts_pct}% of volume) mention {cc.competitor_name} while
-          discussing TakaPay — every single one skews negative toward TakaPay.
+          discussing {brandName}.
         </div>
       </div>
       <div className="tp-vs-grid">
         <div className="tp-vs-card">
-          <div className="tp-vs-name">TakaPay <span style={{ color: "var(--ink-faint)", fontSize: 13 }}>(overall)</span></div>
+          <div className="tp-vs-name">{brandName} <span style={{ color: "var(--ink-faint)", fontSize: 13 }}>(overall)</span></div>
           <div className="tp-vs-line"><span>Avg sentiment score</span><span>{own.avg_sentiment_score}</span></div>
           <div className="tp-vs-line"><span>Negative share</span><span style={{ color: "var(--coral)" }}>{own.negative_pct}%</span></div>
           <div className="tp-vs-line"><span>Positive share</span><span style={{ color: "var(--mint)" }}>{own.positive_pct}%</span></div>
         </div>
         <div className="tp-vs-mid">vs</div>
         <div className="tp-vs-card">
-          <div className="tp-vs-name">{cc.competitor_name} <span style={{ color: "var(--ink-faint)", fontSize: 13 }}>(in TakaPay posts)</span></div>
+          <div className="tp-vs-name">{cc.competitor_name} <span style={{ color: "var(--ink-faint)", fontSize: 13 }}>(in {brandName} posts)</span></div>
           <div className="tp-vs-line"><span>Avg sentiment score</span><span>{cc.avg_sentiment_score}</span></div>
           <div className="tp-vs-line"><span>Negative share</span><span style={{ color: "var(--coral)" }}>{cc.negative_pct}%</span></div>
           <div className="tp-vs-line"><span>Positive share</span><span style={{ color: "var(--mint)" }}>{cc.positive_pct}%</span></div>
@@ -412,8 +426,8 @@ function CompetitorSection() {
         ))}
       </div>
       <div className="tp-section-note" style={{ textAlign: "left", marginTop: 14, fontSize: 11.5 }}>
-        Note: these two columns aren't perfectly apples-to-apples — the left is TakaPay's whole conversation,
-        the right is only the subset of TakaPay posts that also bring up {cc.competitor_name}. Read it as
+        Note: these two columns aren't perfectly apples-to-apples — the left is {brandName}'s whole conversation,
+        the right is only the subset of {brandName} posts that also bring up {cc.competitor_name}. Read it as
         "how bad does it get when people are actively comparing," not a like-for-like brand score.
       </div>
     </div>
@@ -560,6 +574,182 @@ function PostFeed({ activeTopic, setActiveTopic, activePlatform, setActivePlatfo
 }
 
 /* ============================================================
+   SITE BAR — the "Insight Starts Here" wordmark + mode switch
+   ============================================================ */
+function SiteBar({ mode, setMode, hasCustomData, onResetCustom }) {
+  return (
+    <div className="tp-sitebar">
+      <div className="tp-sitebar-inner">
+        <div className="tp-wordmark">
+          <Sparkles size={16} color="var(--gold-bright)" />
+          <span className="tp-display">Insight Starts Here</span>
+        </div>
+        <div className="tp-mode-switch">
+          <button
+            className={`tp-mode-btn ${mode === "sample" ? "active" : ""}`}
+            onClick={() => setMode("sample")}
+          >
+            Sample report
+          </button>
+          <button
+            className={`tp-mode-btn ${mode === "custom" ? "active" : ""}`}
+            onClick={() => setMode("custom")}
+          >
+            Try it on your data
+          </button>
+          {mode === "custom" && hasCustomData && (
+            <button className="tp-mode-reset" onClick={onResetCustom} title="Upload a different file">
+              <RotateCcw size={13} /> new file
+            </button>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
+   UPLOAD PANEL — "try it on your data" entry point
+   Accepts CSV or JSON, converts CSV → JSON client-side, runs the
+   same deterministic aggregation as pre_process.py (lib/aggregate.js),
+   then asks the Groq-backed /api/generate-insights route to phrase
+   the headline text from those numbers.
+   ============================================================ */
+function UploadPanel({ onReady }) {
+  const [fileName, setFileName] = useState(null);
+  const [brandName, setBrandName] = useState("");
+  const [status, setStatus] = useState("idle"); // idle | reading | generating | error
+  const [error, setError] = useState(null);
+  const [dragOver, setDragOver] = useState(false);
+  const inputRef = useRef(null);
+
+  const requiredFieldsHint = "text, platform, sentiment, sentiment_score, topic, timestamp, reactions, comments";
+
+  async function handleFile(file) {
+    setError(null);
+    setFileName(file.name);
+    setStatus("reading");
+    try {
+      const raw = await file.text();
+      let rows;
+      if (file.name.toLowerCase().endsWith(".json")) {
+        const parsed = JSON.parse(raw);
+        rows = Array.isArray(parsed) ? parsed : parsed.records || parsed.data || [];
+      } else {
+        rows = csvToJson(raw);
+      }
+      if (!Array.isArray(rows) || rows.length === 0) {
+        throw new Error("No rows found in that file.");
+      }
+
+      const { PROCESSED, RAW } = aggregateRecords(rows);
+      const finalBrand = brandName.trim() || "Your Brand";
+
+      setStatus("generating");
+      try {
+        const res = await fetch("/api/generate-insights", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ PROCESSED }),
+        });
+        if (res.ok) {
+          const gen = await res.json();
+          if (gen.summary_line) PROCESSED.meta.summary_line = gen.summary_line;
+          if (gen.failed_transaction_headline && PROCESSED.insight_failed_transactions) {
+            PROCESSED.insight_failed_transactions.headline = gen.failed_transaction_headline;
+          }
+          if (gen.competitor_headline && PROCESSED.insight_competitor_comparison) {
+            PROCESSED.insight_competitor_comparison.headline = gen.competitor_headline;
+          }
+        }
+      } catch (e) {
+        // Groq enrichment is best-effort — deterministic fallback headlines
+        // already computed in aggregateRecords() carry the dashboard fine.
+        console.warn("Groq enrichment skipped:", e.message);
+      }
+
+      onReady({ PROCESSED, RAW, brandName: finalBrand });
+      setStatus("idle");
+    } catch (e) {
+      setError(e.message || "Couldn't read that file.");
+      setStatus("error");
+    }
+  }
+
+  function onDrop(e) {
+    e.preventDefault();
+    setDragOver(false);
+    const file = e.dataTransfer.files?.[0];
+    if (file) handleFile(file);
+  }
+
+  return (
+    <div className="tp-section" style={{ paddingTop: 30 }}>
+      <div className="tp-section-head">
+        <div>
+          <div className="tp-section-label">Try It On Your Data</div>
+          <div className="tp-section-title tp-display">Upload your own social listening export</div>
+        </div>
+        <div className="tp-section-note">CSV or JSON. Your data replaces everything below — it never touches the sample report.</div>
+      </div>
+
+      <input
+        placeholder="Brand name shown in the report (optional — defaults to “Your Brand”)"
+        className="tp-search"
+        style={{ marginBottom: 14, width: "100%", paddingLeft: 14 }}
+        value={brandName}
+        onChange={(e) => setBrandName(e.target.value)}
+      />
+
+      <div
+        className={`tp-dropzone ${dragOver ? "over" : ""}`}
+        onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
+        onDragLeave={() => setDragOver(false)}
+        onDrop={onDrop}
+        onClick={() => inputRef.current?.click()}
+      >
+        <input
+          ref={inputRef}
+          type="file"
+          accept=".csv,.json,application/json,text/csv"
+          style={{ display: "none" }}
+          onChange={(e) => e.target.files?.[0] && handleFile(e.target.files[0])}
+        />
+        {status === "reading" || status === "generating" ? (
+          <>
+            <Loader2 size={26} className="tp-spin" color="var(--gold)" />
+            <div className="tp-dropzone-title">{status === "reading" ? "Reading your file…" : "Generating insight text with Groq…"}</div>
+            <div className="tp-dropzone-sub">{fileName}</div>
+          </>
+        ) : (
+          <>
+            <UploadCloud size={26} color="var(--gold)" />
+            <div className="tp-dropzone-title">Drop a CSV or JSON file, or click to browse</div>
+            <div className="tp-dropzone-sub">Expected columns: {requiredFieldsHint}</div>
+            <div className="tp-dropzone-icons">
+              <span><FileSpreadsheet size={13} /> .csv</span>
+              <span><FileJson size={13} /> .json</span>
+            </div>
+          </>
+        )}
+      </div>
+
+      {error && (
+        <div className="tp-upload-error">
+          <AlertTriangle size={14} /> {error}
+        </div>
+      )}
+
+      <div className="tp-section-note" style={{ textAlign: "left", marginTop: 16, maxWidth: "none" }}>
+        Missing columns are filled with sensible defaults (unknown platform, neutral sentiment, today's date),
+        so a rough export still renders — but the more of the expected columns you include, the more accurate
+        the charts below will be.
+      </div>
+    </div>
+  );
+}
+
+/* ============================================================
    ROOT
    ============================================================ */
 // Where the two JSON files live. In Vite/CRA these paths resolve against
@@ -571,13 +761,40 @@ function PostFeed({ activeTopic, setActiveTopic, activePlatform, setActivePlatfo
 const PROCESSED_URL = "/data/processed_takapay_data.json";
 const RAW_URL = "/data/takapay_sample_data.json";
 
-export default function TakaPayDashboard() {
+function DashboardBody({ data }) {
   const [activeTopic, setActiveTopic] = useState(null);
   const [activePlatform, setActivePlatform] = useState(null);
   const [activeSentiment, setActiveSentiment] = useState(null);
 
-  const [data, setData] = useState(null);   // { PROCESSED, RAW } once loaded
-  const [error, setError] = useState(null);
+  return (
+    <DataContext.Provider value={data}>
+      <Header />
+      <Hero />
+      <TrendSection />
+      <TopicLedger activeTopic={activeTopic} setActiveTopic={setActiveTopic} />
+      <PlatformGrid activePlatform={activePlatform} setActivePlatform={setActivePlatform} />
+      <FailedTransactionInsight setActiveTopic={setActiveTopic} setActiveSentiment={setActiveSentiment} />
+      <CompetitorSection />
+      <EngagementWeightedSection />
+      <PostFeed
+        activeTopic={activeTopic} setActiveTopic={setActiveTopic}
+        activePlatform={activePlatform} setActivePlatform={setActivePlatform}
+        activeSentiment={activeSentiment} setActiveSentiment={setActiveSentiment}
+      />
+      <div className="tp-footer">
+        {data.mode === "custom"
+          ? <>Insight Starts Here — generated from {data.PROCESSED.meta.source_record_count} of your uploaded posts</>
+          : <>Insight Starts Here — generated from {data.PROCESSED.meta.source_record_count} sample posts · TakaPay demo report</>}
+      </div>
+    </DataContext.Provider>
+  );
+}
+
+export default function InsightDashboard() {
+  const [mode, setMode] = useState("sample"); // "sample" | "custom"
+  const [sampleData, setSampleData] = useState(null);
+  const [sampleError, setSampleError] = useState(null);
+  const [customData, setCustomData] = useState(null); // { PROCESSED, RAW, brandName, mode } once uploaded
 
   useEffect(() => {
     let cancelled = false;
@@ -587,54 +804,45 @@ export default function TakaPayDashboard() {
         if (!pRes.ok) throw new Error(`Failed to load ${PROCESSED_URL} (${pRes.status})`);
         if (!rRes.ok) throw new Error(`Failed to load ${RAW_URL} (${rRes.status})`);
         const [PROCESSED, RAW] = await Promise.all([pRes.json(), rRes.json()]);
-        if (!cancelled) setData({ PROCESSED, RAW });
+        if (!cancelled) setSampleData({ PROCESSED, RAW, brandName: "TakaPay", mode: "sample" });
       } catch (e) {
-        if (!cancelled) setError(e.message || "Failed to load dashboard data");
+        if (!cancelled) setSampleError(e.message || "Failed to load sample dashboard data");
       }
     })();
     return () => { cancelled = true; };
   }, []);
 
-  if (error) {
-    return (
-      <div className="tp-root">
-        <div className="tp-shell">
-          <div className="tp-empty">Couldn't load dashboard data: {error}</div>
-        </div>
-      </div>
-    );
-  }
-
-  if (!data) {
-    return (
-      <div className="tp-root">
-        <div className="tp-shell">
-          <div className="tp-empty">Loading TakaPay social data…</div>
-        </div>
-      </div>
-    );
-  }
+  const handleReady = ({ PROCESSED, RAW, brandName }) => {
+    setCustomData({ PROCESSED, RAW, brandName, mode: "custom" });
+  };
 
   return (
-    <DataContext.Provider value={data}>
-      <div className="tp-root">
-        <div className="tp-shell">
-          <Header />
-          <Hero />
-          <TrendSection />
-          <TopicLedger activeTopic={activeTopic} setActiveTopic={setActiveTopic} />
-          <PlatformGrid activePlatform={activePlatform} setActivePlatform={setActivePlatform} />
-          <FailedTransactionInsight setActiveTopic={setActiveTopic} setActiveSentiment={setActiveSentiment} />
-          <CompetitorSection />
-          <EngagementWeightedSection />
-          <PostFeed
-            activeTopic={activeTopic} setActiveTopic={setActiveTopic}
-            activePlatform={activePlatform} setActivePlatform={setActivePlatform}
-            activeSentiment={activeSentiment} setActiveSentiment={setActiveSentiment}
-          />
-          <div className="tp-footer">TakaPay Social Pulse — generated from {data.PROCESSED.meta.source_record_count} sample posts · DeepDive candidate brief</div>
-        </div>
+    <div className="tp-root">
+      <SiteBar
+        mode={mode}
+        setMode={setMode}
+        hasCustomData={!!customData}
+        onResetCustom={() => setCustomData(null)}
+      />
+      <div className="tp-shell">
+        {mode === "sample" && (
+          sampleError ? (
+            <div className="tp-empty">Couldn't load the sample report: {sampleError}</div>
+          ) : !sampleData ? (
+            <div className="tp-empty">Loading sample social data…</div>
+          ) : (
+            <DashboardBody data={sampleData} />
+          )
+        )}
+
+        {mode === "custom" && (
+          customData ? (
+            <DashboardBody data={customData} />
+          ) : (
+            <UploadPanel onReady={handleReady} />
+          )
+        )}
       </div>
-    </DataContext.Provider>
+    </div>
   );
 }

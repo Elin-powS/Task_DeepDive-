@@ -1,7 +1,7 @@
-import TakaPayDashboard from './TakaPayDashboard'
+import InsightDashboard from './InsightDashboard'
 
 function App() {
-  return <TakaPayDashboard />
+  return <InsightDashboard />
 }
 
 export default App

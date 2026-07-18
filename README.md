@@ -37,14 +37,19 @@ DeepDive's raw feed for TakaPay contains 660 records across seven platforms (Fac
 
 | Layer | Choice |
 |---|---|
-| Preprocessing | Python (stdlib + `pandas`/`statistics`/`collections`), `python-dotenv` for local secrets |
-| Optional LLM enrichment | Groq API (`llama-3.3-70b-versatile`), phrasing-only, no numeric generation |
+| Preprocessing (sample data) | Python (stdlib + `pandas`/`statistics`/`collections`), `python-dotenv` for local secrets |
+| Preprocessing (user-uploaded data) | Client-side JS (`src/lib/aggregate.js`, `src/lib/csvToJson.js`) — mirrors `pre_process.py`'s aggregation logic so uploaded CSV/JSON gets the same metrics as the sample dataset |
+| Optional LLM enrichment | Groq API (`llama-3.3-70b-versatile`), phrasing-only, no numeric generation — called from `pre_process.py` for the sample data, and from a `/api/generate-insights` serverless function for user-uploaded data |
 | Frontend | React + Vite |
 | Charts | Recharts (sentiment trend line/stacked bars) |
 | Styling | Plain CSS (custom design system, no framework) |
-| Hosting | Vercel (static build) |
+| Hosting | Vercel (static build + one serverless function) |
 
 ## Architecture
+
+There are two data paths into the same dashboard components:
+
+**1. Sample data (default view) — fully static, computed ahead of time**
 
 ```
 takapay_sample_data.json (raw, 660 records)
@@ -57,7 +62,26 @@ takapay_sample_data.json (raw, 660 records)
     headline phrasing)
 ```
 
-The frontend never touches raw records or performs aggregation itself — it renders the pre-computed `processed_takapay_data.json`. This keeps the numbers on the dashboard traceable back to one auditable script rather than scattered across UI components.
+**2. "Try It On Your Data" — computed live, in the browser + one serverless call**
+
+```
+user's CSV/JSON upload
+          │
+          ▼
+  csvToJson.js (if CSV)  ──▶  aggregate.js  ──▶  same aggregate shape as pre_process.py
+                                    │
+                                    ▼
+                    POST /api/generate-insights (Vercel serverless function)
+                                    │
+                                    ▼
+                         Groq phrases 3 headline strings
+                         (never invents/changes a number)
+                                    │
+                                    ▼
+                         same React dashboard components
+```
+
+For the sample-data path, the frontend never touches raw records or performs aggregation itself — it renders the pre-computed `processed_takapay_data.json`, keeping those numbers traceable back to one auditable script. For the upload path, the same deterministic aggregation logic runs client-side (`src/lib/aggregate.js`), and only the *phrasing* of a few headline sentences is delegated to Groq — the underlying numbers are still 100% deterministic in both paths. If the Groq call fails or isn't configured, the upload path falls back to deterministic f-string headlines identical in spirit to the sample report's.
 
 ## Data Pipeline
 
@@ -85,6 +109,7 @@ Every aggregate the dashboard shows — overview sentiment, per-platform/per-lan
 - TakaPay vs. competitor (NgoodPay) comparison, with keyword-bucketed reasons the competitor is favored (cashback/bonus, agent availability, customer care, fees)
 - Engagement-weighted sentiment (raw post-count sentiment vs. sentiment weighted by reactions + comments — the two can tell different stories)
 - Filterable, searchable post feed — clicking a topic row, platform card, or sentiment segment elsewhere on the dashboard cross-filters the feed below, in addition to manual search/sort controls
+- **"Try It On Your Data"** — drag-and-drop a CSV or JSON export of your own and see the same dashboard rebuilt from it live, entirely client-side (never touches the sample report). Missing columns fall back to sensible defaults (unknown platform, neutral sentiment, today's date) so a rough export still renders.
 
 ## Product Call: Chosen Insight
 
@@ -121,7 +146,7 @@ python pre_process.py
 
 This reads `takapay-dashboard/public/data/takapay_sample_data.json` and writes `takapay-dashboard/public/data/processed_takapay_data.json`.
 
-Optional LLM headline phrasing (off by default): create a `.env` file in the project root with `GROQ_API_KEY=your_key_here` (loaded automatically via `python-dotenv`). If it's unset, or if the request fails for any reason, the script falls back to deterministic f-string headlines — the build never breaks because of a missing key or a network issue. **Do not commit `.env` — it should be listed in `.gitignore`.**
+Optional LLM headline phrasing (off by default): create a `.env` file in the project root with `GROQ_API_KEY=your_key_here` (loaded automatically via `python-dotenv`, which searches upward from wherever you run the script). If it's unset, or if the request fails for any reason, the script falls back to deterministic f-string headlines — the build never breaks because of a missing key or a network issue. **Do not commit `.env` — it should be listed in `.gitignore`.**
 
 **2. Run the dashboard**
 
@@ -131,13 +156,26 @@ npm install
 npm run dev
 ```
 
+To also test the **"Try It On Your Data"** upload feature locally (not required just to view the sample report), the frontend's dev server needs its own `.env`: Vite's `loadEnv` only reads the exact directory you run it from and does **not** search upward like `python-dotenv` does, so add a second `.env` (or copy the project-root one) directly inside `takapay-dashboard/`, next to `package.json`:
+
+```bash
+cp ../.env .env   # from inside takapay-dashboard/
+```
+
+Without it, uploads still work end-to-end — headlines just fall back to the deterministic wording instead of Groq's phrasing.
+
 ## Deployment (Vercel)
 
 1. Push the repo to GitHub.
 2. Import the repo in Vercel.
 3. Framework preset: **Vite**. Build command: `npm run build`. Output directory: `dist`.
-4. `processed_takapay_data.json` is a static asset under `public/data/` and ships with the build — no environment variables or serverless functions are required at runtime. (`GROQ_API_KEY` is only needed locally at *preprocessing* time, never in the deployed app.)
-5. Deploy. Live URL: **[INSERT LIVE URL HERE]**
+4. `processed_takapay_data.json` is a static asset under `public/data/` and ships with the build — the **sample report** needs no environment variables or serverless functions at runtime.
+5. The **"Try It On Your Data" upload feature** does call Groq live, via the `api/generate-insights.js` serverless function that Vercel auto-deploys from the `api/` folder. For that to work in production:
+   - Add `GROQ_API_KEY` under Project Settings → Environment Variables (Production, and Preview if you want PR previews to have it too).
+   - Redeploy after adding/changing it — env vars aren't picked up by already-built deployments.
+   - If it's left unset, the upload feature still works end-to-end; it just silently falls back to the same deterministic f-string headlines the sample report uses, instead of Groq-phrased ones.
+6. Locally, `npm run dev` (plain Vite) doesn't understand `/api` routes the way Vercel does — `vite-dev-api-plugin.js` emulates that route in dev only, using the exact same logic (`api/_lib/groqInsights.js`) so local and production behave identically. Nothing extra to configure for this in Vercel itself; it's dev-only plumbing.
+7. Deploy. Live URL: **[INSERT LIVE URL HERE]**
 
 ## What I'd Improve With Another Week
 
@@ -162,22 +200,38 @@ npm run dev
 
 ```
 .
-├── pre_process.py                          # Deterministic data cleaning + aggregation
+├── pre_process.py                          # Deterministic data cleaning & aggregation (sample data)
 ├── requirements.txt                        # Python dependencies (pandas, requests, python-dotenv)
-├── .env                                    # Local-only, holds GROQ_API_KEY (not committed)
-├── takapay_analysis.ipynb                  # Exploratory analysis (pandas/matplotlib)
-├── takapay-dashboard/
-│   ├── public/
-│   │   └── data/
-│   │       ├── takapay_sample_data.json    # Raw input (660 records)
-│   │       └── processed_takapay_data.json # Aggregated output consumed by the frontend
-│   ├── src/
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   ├── index.css
-│   │   ├── main.jsx
-│   │   ├── TakaPayDashboard.jsx
-│   │   └── TakaPayDashboard.css
-│   └── index.html
-└── README.md
+├── .env                                    # Local-only, holds GROQ_API_KEY for pre_process.py (not committed)
+├── takapay_analysis.ipynb                  # Exploratory data analysis
+├── README.md
+│
+└── takapay-dashboard/
+    ├── .env                                 # Local-only copy, holds GROQ_API_KEY for `npm run dev` (not committed)
+    ├── vite.config.js                       # Wires up devApiPlugin() + loads GROQ_API_KEY for local dev only
+    ├── vite-dev-api-plugin.js               # Dev-only: makes plain `vite dev` understand POST /api/generate-insights
+    │
+    ├── public/
+    │   └── data/
+    │       ├── takapay_sample_data.json     # Raw input (660 records)
+    │       └── processed_takapay_data.json  # Aggregated output consumed by the frontend
+    │
+    ├── api/
+    │   ├── generate-insights.js             # Vercel serverless function — the real production endpoint
+    │   └── _lib/
+    │       └── groqInsights.js              # Shared Groq-calling logic, reused by vite-dev-api-plugin.js in dev
+    │
+    ├── src/
+    │   ├── lib/
+    │   │   ├── aggregate.js                 # Client-side aggregation (mirrors pre_process.py, for uploaded data)
+    │   │   └── csvToJson.js                 # Dependency-free CSV → JSON parser for uploaded data
+    │   │
+    │   ├── App.jsx
+    │   ├── App.css
+    │   ├── index.css
+    │   ├── main.jsx
+    │   ├── InsightDashboard.jsx             # Main dashboard component (sample + uploaded-data modes)
+    │   └── InsightDashboard.css
+    │
+    └── index.html
 ```
